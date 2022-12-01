@@ -2,24 +2,24 @@
 
 # Table of Contents
 
-1. [General](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#General)
+1. [General](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#General)
 
-2. [Binary Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Binary-Tree)
+2. [Binary Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Binary-Tree)
 
-3. [Binary Search Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Binary-Search-Tree)
+3. [Binary Search Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Binary-Search-Tree)
 
-4. [AVL Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#AVL-Tree)
+4. [AVL Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#AVL-Tree)
 
-5. [Threaded Binary Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Threaded-Tree)
+5. [Threaded Binary Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Threaded-Tree)
 
-6. [Splay Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Splay-Tree)
+6. [Splay Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Splay-Tree)
 
-7. [Red Black Tree](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Red-Black-Tree)
+7. [Red Black Tree](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Red-Black-Tree)
 
-7. [Huffman coding](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#Huffman-coding)
+7. [Huffman coding](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#Huffman-coding)
 
 # General
-[Back to the Top](https://gitlab.com/chiyanglin/my_study_and_develop_projects/-/blob/main/Tree_algo.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md#table-of-contents)
 
 [Tree Into](https://web.ntnu.edu.tw/~algo/Tree.html#1)
 

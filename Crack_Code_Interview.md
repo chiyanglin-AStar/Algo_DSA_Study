@@ -45,13 +45,15 @@ Interview Questions
 cannot use additional data structures?
 Hints: #44, #117, #132
 
-ref: [Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/)
+ref: 
+  1. [Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/)
 
-1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the
-other.
-Hints: f t , #84, #122, #131
+1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
+Hints: #84, #122, #131
 
-ref: [Check if two strings are permutation of each other](https://www.geeksforgeeks.org/check-if-two-strings-are-permutation-of-each-other/)
+ref: 
+  1. [Check if two strings are permutation of each other](https://www.geeksforgeeks.org/check-if-two-strings-are-permutation-of-each-other/)
+  2. [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 
 1.3 URLify: Write a method to replace all spaces in a string with '%20'. You may assume that the string
 has sufficient space at the end to hold the additional characters, and that you are given the "true"
@@ -116,18 +118,22 @@ ref:
 
   1. [Inplace rotate square matrix by 90 degrees | Set 1](https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/)
 
-  2. 
+  2. [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 1.8 Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 Hints: #17, #74, #102
 
-ref: []()
+ref: 
+  1. [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 1.9 String Rotation; Assume you have a method i s S u b s t r i n g which checks if one word is a substring
 of another. Given two strings, si and s2, write code to check if s2 is a rotation of si using only one
 call to i s S u b s t r i n g [e.g., "water b o t t l e " is a rotation o P ' e r b o t t l e w a t " ) ,
 Hints: #34, #88,#W4
 
+ref:
+  1. [796. Rotate String](https://leetcode.com/problems/rotate-string/)
+ 
 Additional Questions: Object-Oriented Design (#7.12), Recursion (#8.3), Sorting and Searching (#10.9), C++
 (#12.11), Moderate Problems (#16.8, #16.17, #16,22), Hard Problems (#17.4, #17.7, #17.13, #17.22, #17,26).
 Hints start on page 653.

@@ -4,7 +4,7 @@
 
 [0.General](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#General)
 
-[1.Arrays and String](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Array-and-String)
+[1.Arrays and String](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Arrays-and-String)
 
 [2.Linked Lists](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-Lists)
 

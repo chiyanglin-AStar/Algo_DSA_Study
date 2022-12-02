@@ -20,12 +20,14 @@ Interview Questions
 1.1 Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
 cannot use additional data structures?
 Hints: #44, #117, #132
-[Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/)
+
+ref: [Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/)
 
 1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the
 other.
 Hints: f t , #84, #122, #131
-[Check if two strings are permutation of each other](https://www.geeksforgeeks.org/check-if-two-strings-are-permutation-of-each-other/)
+
+ref: [Check if two strings are permutation of each other](https://www.geeksforgeeks.org/check-if-two-strings-are-permutation-of-each-other/)
 
 1.3 URLify: Write a method to replace all spaces in a string with '%20'. You may assume that the string
 has sufficient space at the end to hold the additional characters, and that you are given the "true"
@@ -36,12 +38,18 @@ Input: "Mr 3ohn Smith 13
 Output: "Mr%203ohn%20Smith"
 Hints: #53,0118
 
+ref: [URLify a given string (Replace spaces with %20)](https://www.geeksforgeeks.org/urlify-a-given-string-replace-spaces-with-%20/)
+
 1.4 Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome.
 A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
 EXAMPLE
 Input: Tact Coa
 Output: True (permutations: "taco cat", "atco e t a " , etc.)
 Hints: #106, h 0134, § 136
+
+ref: 1. [Palindrome Permutations The Problem: Write a function that checks whether any permutation of a string is a palindrome](https://medium.com/swlh/palindrome-permutations-9752d8e71c7f)
+
+     2. [Print all palindrome permutations of a string](https://www.geeksforgeeks.org/print-all-palindrome-permutations-of-a-string/)
 
 1.5 One Away: There are three types of edits that can be performed on strings: insert a character,
 remove a character, or replace a character. Given two strings, write a function to check if they are
@@ -52,6 +60,8 @@ p a l e s , pale -> true
 p a l e , bale -> true
 p a l e , bake -> false
 Hints: #23, #97, it 130
+
+ref: [Check if edit distance between two strings is one](https://www.geeksforgeeks.org/check-if-two-given-strings-are-at-edit-distance-one/)
 
 1.6 String Compression: Implement a method to perform basic string compression using the counts
 of repeated characters. For example, the string aabcccccaaa would become a2blc5a3, If the

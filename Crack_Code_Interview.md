@@ -38,7 +38,11 @@ Input: "Mr 3ohn Smith 13
 Output: "Mr%203ohn%20Smith"
 Hints: #53,0118
 
-ref: [URLify a given string (Replace spaces with %20)](https://www.geeksforgeeks.org/urlify-a-given-string-replace-spaces-with-%20/)
+ref: 
+
+  1. [URLify a given string (Replace spaces with %20)](https://www.geeksforgeeks.org/urlify-a-given-string-replace-spaces-with-%20/)
+
+  2. [Amazon | Phone screen | URLify a given string (replace spaces with %20)](https://leetcode.com/discuss/interview-question/124608/amazon-phone-screen-urlify-a-given-string-replace-spaces-with-20)
 
 1.4 Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome.
 A palindrome is a word or phrase that is the same forwards and backwards. A permutation is a rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
@@ -47,9 +51,10 @@ Input: Tact Coa
 Output: True (permutations: "taco cat", "atco e t a " , etc.)
 Hints: #106, h 0134, § 136
 
-ref: 1. [Palindrome Permutations The Problem: Write a function that checks whether any permutation of a string is a palindrome](https://medium.com/swlh/palindrome-permutations-9752d8e71c7f)
+ref: 
+  1. [Palindrome Permutations The Problem: Write a function that checks whether any permutation of a string is a palindrome](https://medium.com/swlh/palindrome-permutations-9752d8e71c7f)
 
-     2. [Print all palindrome permutations of a string](https://www.geeksforgeeks.org/print-all-palindrome-permutations-of-a-string/)
+  2. [Print all palindrome permutations of a string](https://www.geeksforgeeks.org/print-all-palindrome-permutations-of-a-string/)
 
 1.5 One Away: There are three types of edits that can be performed on strings: insert a character,
 remove a character, or replace a character. Given two strings, write a function to check if they are
@@ -61,7 +66,11 @@ p a l e , bale -> true
 p a l e , bake -> false
 Hints: #23, #97, it 130
 
-ref: [Check if edit distance between two strings is one](https://www.geeksforgeeks.org/check-if-two-given-strings-are-at-edit-distance-one/)
+ref:
+
+  1. [Check if edit distance between two strings is one](https://www.geeksforgeeks.org/check-if-two-given-strings-are-at-edit-distance-one/)
+
+  2. [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 
 1.6 String Compression: Implement a method to perform basic string compression using the counts
 of repeated characters. For example, the string aabcccccaaa would become a2blc5a3, If the
@@ -69,13 +78,26 @@ of repeated characters. For example, the string aabcccccaaa would become a2blc5a
 the original string. You can assume the string has only uppercase and lowercase letters (a - z).
 Hints: #92, if 110
 
+ref: 
+
+  1. [String Compression](https://kodr.me/en/string-compression)
+     
+  2. [443. String Compression](https://leetcode.com/problems/string-compression/)
 
 1.7 Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4
 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
 Hints: «51,0100
 
+ref: 
+
+  1. [Inplace rotate square matrix by 90 degrees | Set 1](https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/)
+
+  2. 
+
 1.8 Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 Hints: #17, #74, #102
+
+ref: []()
 
 1.9 String Rotation; Assume you have a method i s S u b s t r i n g which checks if one word is a substring
 of another. Given two strings, si and s2, write code to check if s2 is a rotation of si using only one

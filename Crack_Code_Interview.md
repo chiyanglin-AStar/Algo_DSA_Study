@@ -379,6 +379,80 @@ Hints start on page 662.
 # Math and Logic Puzzles
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+Interview Questions
+6.1 The Heavy Pill: You have 20 bottles of pills. 19 bottles have 1.0 gram pills, but one has pills of weight
+1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bottle?
+You can only use the scale once.
+Hints: # 186, #252, #319, #387
+
+6.2 Basketball: You have a basketball hoop and someone says that you can play one of two games.
+Game 1: You get one shot to make the hoop.
+Game 2: You get three shots and you have to make two of three shots.
+If p is the probability of making a particular shot, for which values of p should you pick one game
+or the other?
+Hints: #181, #239, #284, #323
+pg 2C>()
+
+6.3 Dominos: There is an 8x8 chessboard in which two diagonally opposite corners have been cut off.
+You are given 31 dominos, and a single domino can cover exactly two squares. Can you use the 31
+dominos to cover the entire board? Prove your answer (by providing an example or showing why
+it's impossible).
+Hints: #367, #397
+pg 291
+
+6.4 Ants on aTriangie: There are three ants on different vertices of a triangle. What is the probability of
+coliision (between any two or all of them) if they start walking on the sides of the triangle? Assume
+that each ant randomly picks a direction, with either direction being equally likely to be chosen, and
+that they walk at the same speed.
+Similarly, find the probability of collision with n ants on an n-vertex polygon.
+Hints: #157, #195, #296
+291
+
+6.5 Jugs of Water: You have a five-quart jug, a three-quart jug, and an unlimited supply of water (but
+no measuring cups). How would you come up with exactly four quarts of water? Note that the jugs
+are oddly shaped, such that filling up exactly "half" of the jug would be impossible.
+Hints: #149, #379, #400
+
+6.6 Blue-Eyed Island: A bunch of people are living on an island, when a visitor comes with a strange
+order: all blue-eyed people must leave the island as soon as possible. There will be a flight out at
+8:00 pm every evening. Each person can see everyone else's eye color, but they do not know their
+own (nor is anyone allowed to tell them). Additionally, they do not know how many people have
+blue eyes, although they do know that at least one person does. How many days will it take the
+blue-eyed people to leave?
+Hints: #218, #282, #34 7, #370
+
+6.7 The Apocalypse: In the new post-apocalyptic world, the world queen is desperately concerned
+about the birth rate. Therefore, she decrees that all families should ensure that they have one girl or
+else they face massive fines. If all families abide by this policy—that is, they have continue to have
+children until they have one girl, at which point they immediately stop—what will the gender ratio
+of the new generation be? (Assume that the odds of someone having a boy or a girl on any given
+pregnancy is equal.) Solve this out logically and then write a computer simulation of it.
+Hints: #154, #160, #171, #188, #201
+
+6.8 The Egg Drop Problem: There is a building of 100 floors. If an egg drops from the Nth floor or
+above, it will break. If it's dropped from any floor below, it will not break. You're given two eggs. Find
+N, while minimizing the number of drops for the worst case.
+Hints; #156, #233, #294, #333, #357, #374, #395
+
+6.9 100 Lockers: There are 100 closed lockers in a hallway. A man begins by opening all 100 lockers.
+Next, he doses every second locker. Then, on his third pass, he toggles every third locker (closes it if
+it is open or opens it if it is closed). This process continues for 100 passes, such that on each pass i,
+the man toggles every i t h locker. After his 100th pass in the hallway, in which he toggles only locker
+#100, how many lockers are open?
+Hints:#139, #172, #264, #306
+
+6.10 Poison: You have 1000 bottles of soda, and exactly one is poisoned. You have 10 test strips which
+can be used to detect poison. A single drop of poison will turn the test strip positive permanently.
+You can put any number of drops on a test strip at once and you can reuse a test strip as many times
+as you'd like (as long as the results are negative). However, you can only run tests once per day and
+it takes seven days to return a result. How would you figure out the poisoned bottle in as few days
+as possible?
+FOLLOW UP
+Write code to simulate your approach.
+Hints: #146, #163, #183, #191, #205, #221, #230, #241, #249
+Additional Problems: Moderate Problems (#16.5), Hard Problems (#17.19)
+Hints start on page 662
+
 # Object-Oriented Design
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
@@ -434,14 +508,261 @@ Hints: #389
 # Recursion and Dynamic Programming
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+Interview Questions
+8.1 Triple Step: A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3
+steps at a time, implement a method to count how many possible ways the child can run up the
+stairs.
+Hin ts: #152, #178, #2 7 7, #237, #262, #359
+
+8.2 Robot in a Grid: Imagine a robot sitting on the upper left corner of grid with r rows and c columns.
+The robot can only move in two directions, right and down, but certain cells are "off limits" such that
+the robot cannot step on them. Design an algorithm to find a path for the robot from the top left to
+the bottom right.
+Hints: #331, #360, #388
+
+8.3 Magic Index: A magic index in an array A [ 0 . . . n - 1 ] is defined to be an index such that A [ i ] =
+i. Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in
+array A.
+FOLLOW UP
+What if the values are not distinct?
+Hints: #170, #204, #240, #286, #340
+
+8.4 Power Set: Write a method to return all subsets of a set.
+Hints: #273, #290, #338, #354, #373
+
+8.5 Recursive Multiply: Write a recursive function to multiply two positive integers without using the
+* operator. You can use addition, subtraction, and bit shifting, but you should minimize the number
+of those operations.
+
+Hints: #166, #203, #227, #234, #246, #280
+
+8.6 Towers of Hanoi: In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of
+different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order
+of size from top to bottom (i.e., each disk sits on top of an even larger one). You have the following
+constraints:
+(1) Only one disk can be moved at a time.
+(2) A disk is slid off the top of one tower onto another tower.
+(3) A disk cannot be placed on top of a smaller disk.
+Write a program to move the disks from the first tower to the last using stacks.
+Hints: #144, #224, #250, #272, #318
+
+8.7 Permutations without Dups: Write a method to compute all permutations of a string of unique
+characters.
+Hints: #150, #185, #200, #267, #278, #309, #335, #356
+
+8.8 Permutations with Dups: Write a method to compute all permutations of a string whose characters
+are not necessarily unique. The list of permutations should not have duplicates.
+Hints: #161, #190, #222, #255
+
+8.9 Parens; implement an algorithm to print all valid (e.g., properly opened and closed) combinations
+of n pairs of parentheses.
+EXAMPLE
+Input: 3
+O u t p u t : ( ( ( ) ) ) , ( 0 0 : ) , ( ( » ( > , 0 ( 0 ) , 0 0 0
+Hints: #138, #174, #187, #209, #243, #265, #295
+
+8.10 Paint Fill: Implement the "paint fill"function that one might see on many image editing programs.
+That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color,
+fill in the surrounding area until the color changes from the original cofor.
+Hints: #364, #382
+
+8.11 Coins: Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents), and
+pennies (1 cent), write code to calculate the number of ways of representing n cents.
+Hints #300, #324, #343, #380, #394
+
+8.12 Eight Queens: Write an algorithm to print all ways of arranging eight queens on an 8x8 chess board
+so that none of them share the same row, column, or diagonal. In this case, "diagonal" means all
+diagonals, not just the two that bisect the board.
+Hints: #308, #350, #371
+
+8.13 Stack of Boxes: You have a stack of n boxes, with widths w4, heights ht , and depths dr The boxes
+cannot be rotated and can only be stacked on top of one another if each box in the stack is strictly
+larger than the box above it in width, height, and depth. Implement a method to compute the
+height of the tallest possible stack. The height of a stack is the sum of the heights of each box.
+Hints: #155, #194, #214, #260, #322, #368, #378
+
+8.14 Boolean Evaluation: Given a boolean expression consisting of the symbols 0 (false), 1 (true), &
+(AND), | (OR), and A (XOR), and a desired boolean result value r e s u l t , implement a function to
+count the number of ways of parenthesizing the expression such that it evaluates to r e s u l t ,
+EXAMPLE
+c o u n t E v a l ( " l A e | 0 j l M , f a l s e ) -> 2
+c o u n t E v a l ( " 0 & 0 & 0 & l A l | 0 " , t r u e ) -> 10
+Hints: #148, #168, #197, #305, #327
+Additional Questions: Linked Lists (#2.2, #2.5, #2.6), Stacks and Queues (#3.3), Trees and Graphs (#4.2, #4,3,
+#4.4, #4.5, #4,8, #4.10, #4.11, #4.12), Math and Logic Puzzles (#6,6), Sorting and Searching (#10.5, #10.9,
+#10.10), C++ (#12.8), Moderate Problems (#16,11), Hard Problems (#17,4, #17.6, #17.8, #17.12, #17.13,
+#17.15,#17.16,#17.24,#17.25).
+Hints start on page 662
+
 # System Design and Scalability
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+
+Interview Questions
+These questions are designed to mirror a real interview, so they will not always be well defined. Think about
+what questions you would ask your interviewer and then make reasonable assumptions. You may make
+different assumptions than us, and that will lead you to a very different design. That's okay!
+Stock Data: Imagine you are building some sort of service that will be called by up to 1,000 client
+applications to get simple end-of-day stock price information (open, close, high, low). You may
+assume that you already have the data, and you can store it in any format you wish. How would you
+design the client-facing service that provides the information to client applications? You are responsible
+for the development, rollout, and ongoing monitoring and maintenance of the feed. Describe
+the different methods you considered and why you would recommend your approach. Your service
+can use any technologies you wish, and can distribute the information to the client applications in
+any mechanism you choose.
+Hints: #385, #396
+
+9.2 Social Network: How would you design the data structures for a very large social network like Facebook
+or Linkedln? Describe how you would design an algorithm to show the shortest path between
+two people (e.g.. Me -> Bob -> Susan -> Jason -> You).
+Hints: #270, #285, #304, #321
+
+9.3 Web Crawler: If you were designing a web crawler, how would you avoid getting into infinite loops?
+Hints: #334, #353, #365
+
+9.4 Duplicate URLs: You have 10 billion URLs. How do you detect the duplicate documents? In this
+case, assume "duplicate" means that the URLs are identical.
+Hints: #326, #347
+
+
+9.5 Cache: Imagine a web server for a simplified search engine. This system has 100 machines to
+respond to search queries, which may then call out using processSearch( s t r i n g query) to
+another cluster of machines to actually get the result.The machine which responds to a given query
+is chosen at random, so you cannot guarantee that the same machine will always respond to the
+same request. The method processSearch is very expensive. Design a caching mechanism for
+the most recent queries. Be sure to explain how you would update the cache when data changes.
+Hints: #259, #274, #293, #311
+
+9.6 Sales Rank: A large eCommerce company wishes to list the best-setling products, overall and by
+category. For example, one product might be the #1056th best-selling product overall but the #13th
+best-selling product under "Sports Equipment" and the #24th best-seiling product under "Safety."
+Describe how you would design this system.
+Hints: 0142, #158, #176, #189, #208, #223, #236, #244
+
+9.7 Personal Financial Manager: Explain how you would design a personal financial manager (like
+Mint.com). This system would connect to your bank accounts, analyze your spending habits, and
+make recommendations.
+Hints: #162, #180, #199, #212, #247, #276
+
+9.8 Pastebin: Design a system like Pastebin, where a user can enter a piece of text and get a randomly
+generated URL to access it.
+Hints:#165, #184, #206, #232
+Additional Questions: Object-Oriented Design (#7.7)
+Hints start on page 662.
+
+
 
 # Sorting and Searching
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+Interview Questions
+10.1 Sorted Merge: You are given two sorted arrays, A and B, where A has a large enough buffer at the
+end to hold B. Write a method to merge B into A in sorted order.
+Hints: it332
+
+10.2 Group Anagrams: Write a method to sort an array of strings so that all the anagrams are next to
+each other.
+Hints: #177, #182, #263, #342
+
+10.3 Search in Rotated Array: Given a sorted array of n integers that has been rotated an unknown
+number of times, write code to find an element in the array. You may assume that the array was
+originally sorted in increasing order,
+EXAMPLE
+Input: find 5 in [15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14}
+Output: 8 (the index of 5 in the array)
+Hints: #298, #310
+
+10.4 Sorted Search, No Size: You are given an array-like data structure L i s t y which lacks a size
+method. It does, however, have an elementAt ( i ) method that returns the element at index i in
+0 ( 1 ) time, if i is beyond the bounds of the data structure, it returns -1. (For this reason, the data
+structure only supports positive integers.) Given a L i s t y which contains sorted, positive integers,
+find the index at which an element X occurs. If x occurs multiple times, you may return any index.
+Hints: #320, #337, #348
+
+10.5 Sparse Search: Given a sorted array of strings that is interspersed with empty strings, write a
+method to find the location of a given string.
+EXAMPLE
+Input: b a l l , { " a t " , " " , " " , " " , " b a l l " , "", " c a r " , " " , " " , "dad", " " ,
+any
+Output: 4
+Hints: #256
+
+10.6 Sort Big File: Imagine you have a 20 GB file with one string per line. Explain how you would sort
+the file.
+Hints: #207
+
+10.7 Missing Int: Given an input file with four billion non-negative integers, provide an algorithm to
+generate an integer that is not contained in the file. Assume you have 1 GB of memory available for
+this task.
+FOLLOW UP
+What if you have only 10 MB of memory? Assume that ail the values are distinct and we now have
+no more than one billion non-negative integers.
+Hints: #235, #254, #281
+
+10.8 Find Duplicates: You have an array with all the numbers from 1 to N, where N is at most 32,000.The
+array may have duplicate entries and you do not know what N is. With only 4 kilobytes of memory
+available, how would you print alt duplicate elements in the array?
+Hints; #289, #315
+
+10.9 Sorted Matrix Search: Given an M x N matrix in which each row and each column is sorted in
+ascending order, write a method to find an element.
+Hints:#193, #211, #229, #251, #266, #279, #288, #291, #303, #317, #330
+
+10.10 Rank from Stream: Imagine you are reading in a stream of integers. Periodically, you wish to be able
+to look up the rank of a number x (the number of values less than or equal to x). Implement the data
+structures and algorithms to support these operations. That is, implement the method t r a c k ( i n t
+x), which is called when each number is generated, and the method getRankOfNumber(int
+x), which returns the number of values tess than or equal to x (not including x itself).
+EXAMPLE
+Stream (in order of appearance): 5, 4, 4, 5, 9, 7, 13, 3
+getRankOfNumber(l) = 0
+getRank0fNumber(3) = 1
+getRank0fNumber(4) = 3
+Hints: #301, #376, #392
+
+10.11 Peaks and Valleys: In an array of integers, a "peak" is an element which is greater than or equal to
+the adjacent integers and a "valley" is an element which is less than or equal to the adjacent integers.
+For example, in the array [5, 8,6, 2, 3,4, 6), {8,6} are peaks and {5, 2} are valleys. Given an array
+of integers, sort the array into an alternating sequence of peaks and valleys.
+EXAMPLE
+Input: IS, 3,1,2, 3)
+Output: (5,1,3,2, 3}
+Hints: #196, #219, #231, #253, #277, #292, #316
+Additional Questions: Arrays and Strings (#1.2), Recursion (#8.3), Moderate (#16.10, #16.16, #16.21, #16.24),
+Hard (#17,11, #17.26).
+Hints start on page 662.
+
+
 # Testing
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+
+Interview Questions
+11.1 Mistake: Find the mistake(s) in the following code:
+unsigned i n t i;
+for {i = 100; i >= 0; --i)
+printf ("%d\niJj l)j
+Hints: #257, #299, #362
+
+11.2 Random Crashes: You are given the source to an application which crashes when it is run. After
+running it ten times in a debugger, you find it never crashes in the same place. The application is
+single threaded, and uses only the C standard library. What programming errors could be causing
+this crash? How would you test each one?
+Hints: #325
+
+11.3 Chess Test: We have the following method used in a chess game: boolean canMoveTo(int x,
+i n t y). This method is part of the Piece class and returns whether or not the piece can move to
+position ( x , y). Explain how you would test this method.
+Hints: #329, #401
+
+11.4 No Test Tools: How would you load test a webpage without using any test tools?
+Hints: #313, #345
+pi j 419
+
+11.5 Test a Pen; How would you test a pen?
+Hints: #140, #164, #220
+
+11.6 Test an ATM: How would you test an ATM in a distributed banking system?
+Hints: #210, #225, #268, #349, #393
+Hints start on page 662
 
 # C and Cplusplus
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
@@ -504,10 +825,424 @@ Hints start on page 676.
 # Threads and Locks
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+Interview Questions
+15.1 Thread vs. Process: What's the difference between a thread and a process?
+Hints: #405
+
+15.2 Context Switch: How would you measure the time spent in a context switch?
+Hints: #403, #407, #415, #441
+
+15.3 Dining Philosophers: In the famous dining philosophers problem, a bunch of philosophers are
+sitting around a circular table with one chopstick between each of them. A philosopher needs
+both chopsticks to eat, and always picks up the left chopstick before the right one. A deadlock
+could potentially occur if all the philosophers reached for the left chopstick at the same time. Using
+threads and locks, implement a simulation of the dining philosophers problem that prevents deadlocks.
+Hints:#479,#437
+
+15.4 Deadlock-Free Class: Design a class which provides a lock only if there are no possible deadlocks.
+Hints: ft422, #434
+
+15.5 Call In Order; Suppose we have the following code:
+public class Foo {
+public Foo() { . . . }
+public void f i r s t Q { . . . >
+public void second() { . . . }
+public void t h i r d ( ) { . . . }
+}
+The same instance of Foo will be passed to three different threads. ThreadA will call f i r s t ,
+threadB will call second, and threadC will call t h i r d . Design a mechanism to ensure that
+f i r s t is called before second and second is called before t h i r d .
+Hints: #417, #433, #446
+
+15.6 Synchronized Methods: You are given a class with synchronized method A and a normal method
+B. If you have two threads in one instance of a program, can they both execute A at the same time?
+Can they execute A and B at the same time?
+Hints: #429
+
+15.7 FizzBuzz: In the classic problem FizzBuzz, you are told to print the numbers from 1 to n. However,
+when the number is divisible by B, print "Fizz". When it is divisible by 5, print "Buzz" When it is divisible
+by 3 and 5, print "FizzBuzz". In this problem, you are asked to do this in a multithreaded way.
+Implement a multithreaded version of FizzBuzz with four threads. One thread checks for divisibility
+of 3 and prints"Fizz". Another thread is responsible for divisibility of 5 and prints "Buzz" A third thread
+is responsible for divisibility of 3 and 5 and prints "FizzBuzz". A fourth thread does the numbers.
+Hints: #414, #439, #447, #458
+
 # Moderate
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+
+16.1 Number Swapper: Write a function to swap a number in place (that is, without temporary variables).
+Hints: #492,0716, 0737
+
+16.2 Word Frequencies: Design a method to find the frequency of occurrences of any given word in a
+book. What if we were running this algorithm multiple times?
+Hints: 0489,053$
+
+16.3 Intersection: Given two straight line segments (represented as a start point and an end point),
+compute the point of intersection, if any.
+Hints: #465, #472, #497, #517, #527
+
+16.4 TicTac Win: Design an algorithm to figure out if someone has won a game of tic-tac-toe.
+Hints: #710, #732
+
+16.5 Factorial Zeros: Write an algorithm which computes the number of trailing zeros in n factorial.
+Hints: #585, #711, #729, #733, #745
+
+16.6 Smallest Difference: Given two arrays of integers, compute the pair of values (one value in each
+array) with the smallest (non-negative) difference. Return the difference.
+EXAMPLE
+Input: {1, 3,1S, 11, 2}, (23,127, 235,19, 8)
+Output: 3. That is, the pair (11,8).
+Hints: #632, #670, #679
+
+16.7 Number Max: Write a method that finds the maximum of two numbers. You should not use if-else
+or any other comparison operator.
+Hints: #473, #513, #707,0728
+
+16.8 English Int: Given any integer, print an English phrase that describes the integer (e.g., "OneThousand,
+Two Hundred Thirty Four").
+Hints; #502, #588, #688
+
+16.9 Operations: Write methods to implement the multiply, subtract, and divide operations for integers.
+The results of all of these are integers. Use only the add operator.
+Hints: #572, #600, #613, #648
+
+16.10 Living People: Given a list of people with their birth and death years, implement a method to
+compute the year with the most number of people alive. You may assume that all people were born
+between 1900 and 2000 (inclusive). If a person was alive during any portion of that year, they should
+be included in that year's count. For example. Person (birth = 1908, death = 1909) is included in the
+counts for both 1908 and 1909.
+Hints: #476, #490, #507, #514, #523, #532, #541, #549, #576
+
+16.11 Diving Board: You are building a diving board by placing a bunch of planks of wood end-to-end.
+There are two types of planks, one of length s h o r t e r and one of length longer. You must use
+exactly K planks of wood. Write a method to generate all possible lengths for the diving board.
+Hints: #690, #700, #715, #722, #740, #747
+
+16.12 XML Encoding: Since XML is very verbose, you are given a way of encoding it where each tag gets
+mapped to a pre-defined integer value. The language/grammar is as follows:
+Element --> Tag A t t r i b u t e s END Children END
+A t t r i b u t e --> Tag Value
+END --> 0
+Tag --> some predefined mapping to i n t
+Value --> s t r i n g value
+For example, the following XML might be converted into the compressed string below (assuming a
+mapping o f f a m i l y -> 1, person ->2, firstName -> 3, lastName - > 4 , s t a t e
+-> 5).
+<family lastName="McDowell" state="CA">
+•cperson firstName="Gayle">Some Message</person>
+</family>
+Becomes:
+1 4 McDowell 5 CA 0 2 3 Gayle 0 Some Message 0 0
+Write code to print the encoded version of an XML element (passed in Element and A t t r i b u t e
+objects).
+Hints: #466
+
+16.13 Bisect Squares: Given two squares on a two-dimensional plane, find a line that would cut these two
+squares in half. Assume that the top and the bottom sides of the square run parallel to the x-axis.
+Hints: #468, #479, #528, #560
+
+16.14 Best Line: Given a two-dimensional graph with points on it, find a line which passes the most
+number of points.
+Hints: #49], #520, #529, #563
+
+16.15 Master Mind: The Game of Master Mind is played as follows:
+The computer has four slots, and each slot will contain a ball that is red (ft), yellow (V), green (G) or
+blue (B). For example, the computer might have RGGB (Slot #1 is red, Slots #2 and #3 are green. Slot
+#4 is blue).
+You, the user, are trying to guess the solution. You might, for example, guess YRGB.
+When you guess the correct color for the correct slot, you get a "hit." If you guess a color that exists
+but is in the wrong slot, you get a "pseudo-hit." Mote that a slot that is a hit can never count as a
+pseudo-hit.
+For example, if the actual solution is RGBY and you guess GGRR, you have one hit and one pseudo-hit.
+Write a method that, given a guess and a solution, returns the number of hits and pseudo-hits.
+Hints: #639, #730
+
+16.16 Sub Sort: Given an array of integers, write a method to find indices m and n such that if you sorted
+elements m through n, the entire array would be sorted. Minimize n - m (that is, find the smallest
+such sequence).
+EXAMPLE
+Input: lj 2, 4j 7, 10, 11, 1, 12, 6, 7, 16, 18, 19
+Output: ( 3 , 9)
+Hints: #482, #553, #667, #708, #735, #746
+
+16.17 Contiguous Sequence: You are given an array of integers (both positive and negative). Find the
+contiguous sequence with the largest sum. Return the sum.
+EXAMPLE
+Input:2, -8, 3, -2, 4, -10
+Output: 5 ( i . e . , {3, -2, 4})
+Hints: #53#551, #567, #594, #614
+
+16.18 Pattern Matching: You are given two strings, p a t t e r n and value.The p a t t e r n string consists of
+just the letters a and b, describing a pattern within a string. For example, the string c a t c a t g o c a t g o
+matches the pattern aabab (where cat is a and go is b). It also matches patterns like a, ab, and b.
+Write a method to determine if v a l u e matches p a t t e r n .
+Hints: #63 1, #643, #653, #663, #685, #718, #727
+
+16.19 Pond Sizes: You have an integer matrix representing a plot of land, where the value at that location
+represents the height above sea level. A value of zero indicates water. A pond is a region of
+water connected vertically, horizontally, or diagonally. The size of the pond is the total number of
+connected water cells. Write a method to compute the sizes of all ponds in the matrix.
+EXAMPLE
+Input:
+6 2 1 0
+e 1 e 1
+1 1 0 1
+0 1 0 1
+Output: 2,4,1 (in any order)
+Hints: #674, §687, #706, 
+
+16.20 T9: On old cell phones, users typed on a numeric keypad and the phone would provide a list of
+words that matched these numbers. Each digit mapped to a set of 0 - 4 letters. Implement an algorithm
+to return a list of matching words, given a sequence of digits. You are provided a list of valid
+words (provided in whatever data structure you'd like). The mapping is shown in the diagram below:
+1 2 3
+abc def
+4 S 6
+ghi jkl mno
+7 8 9
+pqrs tuv wxyz
+0
+EXAMPLE
+Input: 8733
+Output: tree, used
+Hints: #471, #487, #654, #703, #726, #744
+
+16.21 Sum Swap: Given two arrays of integers, find a pair of values (one value from each array) that you
+can swap to give the two arrays the same sum.
+EXAMPLE
+Input:{4,1,2,1,1, 2}and [3,6, 3,3}
+Output: {1, 3}
+Hints: #545, #557, #564, #571, #583, #592, #602, #606, #635
+1 8
+
+16.22 Langton's Ant: An ant is sitting on an infinite grid of white and biack squares. It initially faces right.
+At each step, it does the following:
+(1) At a white square, flip the coior of the square, turn 90 degrees right (clockwise), and move forward
+one unit,
+(2) At a black square, flip the color of the square, turn 90 degrees left (counter-clockwise), and move
+forward one unit.
+Write a program to simulate the first K moves that the ant makes and print the final board as a grid.
+Note that you are not provided with the data structure to represent the grid. This is something you
+must design yourself. The only input to your method is K. You should print the final grid and return
+nothing.The method signature might be something like v o i d printKMoves( i n t K).
+Hints: It474, #481, #533, #540, #559, #570, #599, #616, #627
+
+16.23 Rand? from Rand5: Implement a method rand7() given rand5( ).That is, given a method that
+generates a random number between 0 and 4 (inclusive), write a method that generates a random
+number between 0 and 6 (inclusive).
+Hints; #505, #574, #637, #668, #697, #720
+
+16.24 Pairs with Sum: Design an algorithm to find all pairs of integers within an array which sum to a
+specified value.
+Hints: #548, #597, #644, #673
+
+16.25 LRU Cache: Design and build a "least recently used" cache, which evicts the least recently used
+item. The cache should map from keys to values (allowing you to insert and retrieve a value associated
+with a particular key) and be initialized with a max size. When it is full, it should evict the least
+recently used item.
+Hints: #524, #630, #694
+
+16.26 Calculator: Given an arithmetic equation consisting of positive integers, +, -, * and / (no parentheses),
+compute the result.
+EXAMPLE
+Input; 2*3+5/6*3+15
+Output: 23.5
+Hints: #521, #624, #665, #698
 
 # Hard
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+17.1 Add Without Plus: Write a function that adds two numbers. You should not use + or any arithmetic
+operators.
+Hints: #467, #544, #601, #628, #642, #664, #692, #712, #724
 
+17.2 Shuffle: Write a method toshuffleadeckofcards.lt must be a perfect shuffle—in other words, each
+of the 521 permutations of the deck has to be equally likely. Assume that you are given a random
+number generator which is perfect.
+Hints: #483, #579, #634
+
+17.3 Random Set: Write a method to randomly generate a set of m integers from an array of size n. Each
+element must have equal probability of being chosen.
+Hints: #494, #596
+
+17.4 Missing Number: An array A contains all the integers from 0 to n, except for one number which
+is missing. In this problem, we cannot access an entire integer in A with a single operation. The
+elements of A are represented in binary, and the only operation we can use to access them is "fetch
+the j t h bit of A[ i ] , " which takes constant time. Write code to find the missing integer. Can you do
+it in 0( n) time?
+Hints: #610, #659, #683
+
+17.5 Letters and Numbers: Given an array filled with letters and numbers, find the longest subarray with
+an equal number of letters and numbers.
+Hints: #485, #515, #619, #671, #713
+
+17.6 Count of 2s: Write a method to count the number of 2s that appear in all the numbers between 0
+and n (inclusive).
+EXAMPLE
+Input: 25
+Output: 9 (2,12,20, 21, 22, 23, 24 and 25. Note that 22 counts for two 2s.)
+Hints: #573, #612, #641
+
+17.7 Baby Names; Each year, the government releases a list of the 10000 most common baby names
+and their frequencies {the number of babies with that name). The only problem with this is that
+some names have multiple spellings. For example, "John" and "Jon" are essentially the same name
+but would be listed separately in the list. Given two lists, one of names/frequencies and the other
+of pairs of equivalent names, write an atgorithm to print a new list of the true frequency of each
+name. Note that if John and Jon are synonyms, and Jon and Johnny are synonyms, then John and
+Johnny are synonyms, (it is both transitive and symmetric.) In the final list, any name can be used
+as the "real" name,
+EXAMPLE
+Input:
+Names: John (15), Jon (12), Chris (13), Kris (4), Christopher (19)
+Synonyms: {Jon, John), (John, Johnny), (Chris, Kris), {Chris, Christopher)
+Output: John (27), Kris (36)
+Hints: #478, #493, #512, #537, #586, #605, #655, #675, #704
+
+17.8 Circus Tower: A circus is designing a tower routine consisting of people standing atop one another's
+shoulders. For practical and aesthetic reasons, each person must be both shorter and lighter
+than the person below him or her. Given the heights and weights of each person in the circus, write
+a method to compute the largest possible number of people in such a tower.
+EXAMPLE
+Input (ht, wt): (65, 100) (70, 150) (56, 90) (75, 190) (60, 95) (68, 110)
+Output: The longest tower is length 6 and includes from top to bottom:
+( 5 6 , 90) (60,95) (65,100) (68,110) (70,150) (75,190)
+Hints: #638, #657, #666, #682, #699
+pg 546
+
+17.9 Kth Multiple: Design an atgorithm to find the kth number such that the only prime factors are 3, 5,
+and 7. Note that 3, 5, and 7 do not have to be factors, but it should not have any other prime factors.
+For example, the first several multiples would be {in order) 1,3, 5, 7, 9,15,21.
+Hints: #488, #508, #550, #591, #622, #660, #686
+
+17.10 Majority Element: A majority element is an element that makes up more than half of the items in
+an array. Given a positive integers array, find the majority element. If there is no majority element,
+return -1. Do this in0(N) time and 0 ( 1 ) space.
+EXAMPLE
+Input: 1 2 5 9 5 9 5 5 5
+Output: 5
+Hints: #522, #566, #604, #620, #650
+
+17.11 Word Distance: You have a large text file containing words. Given any two words, find the shortest
+distance (in terms of number of words) between them in the file. If the operation will be repeated
+many times for the same file (but different pairs of words), can you optimize your solution?
+Hints: #486, #501, #538, #558, #633
+
+17.12 BiNode: Consider a simple data structure called BiNode, which has pointers to two other nodes,
+public class BiNode {
+public SiNode nodel, node2;
+public int data;
+>
+The data structure BiNode could be used to represent both a binary tree (where nodel is the left
+node and node2 is the right node) or a doubly linked list (where nodel is the previous node and
+node2 is the next node). Implement a method to convert a binary search tree (implemented with
+BiNode) into a doubly linked list. The values should be kept in order and the operation should be
+performed in place (that is, on the original data structure).
+Hints: #509, #608, #646, #680, #701 #719
+
+17.13 Re-Space: Oh, no! You have accidentally removed all spaces, punctuation, and capitalization in a
+lengthy document, A sentence like " I reset t h e computer. It s t i l l d i d n ' t boot!"
+became " i r e s e t t h e c o m p u t e r i t st i l l d i d n t b o o t " . You'll deal with the punctuation and capitalization
+later; right now you need to re-insert the spaces. Most of the words are in a dictionary but
+a few are not. Given a dictionary (a list of strings) and the document (a string), design an algorithm
+to unconcatenate the document in a way that minimizes the number of unrecognized characters.
+EXAMPLE;
+Input: j e s s l o o k e d j u s t l i k e t i m h e r b r o t h er
+Output: j e s s looked j u s t l i k e t u n her b r o t h e r (7 unrecognized characters)
+Hints: #496, #623, #656, #677, #739, #749
+
+17.14 Smallest K: Design an algorithm to find the smallest K numbers in an array.
+Hints: #470, #530, #552, #593, #625, #647, #661, #678
+
+17.15 Longest Word: Given a list of words, write a program to find the longest word made of other words
+in the list.
+EXAMPLE
+Input: c a t , banana, dog, nana, walk, walker, dogwalker
+Output: dogwalker
+Hints: #475, #499, #543, #589
+
+17.16 The Masseuse: A popular masseuse receives a sequence of back-to-back appointment requests
+and is debating which ones to accept. She needs a 15-minute break between appointments and
+therefore she cannot accept any adjacent requests. Given a sequence of back-to-back appointment
+requests (all multiples of 15 minutes, none overlap, and none can be moved), find the optimal
+(highest total booked minutes) set the masseuse can honor. Return the number of minutes.
+EXAMPLE
+Input; {30, 15, 60, 75, 45, 15, 15, 45}
+Output: 180 minutes ({30, 60, 45, 4 5 } ) .
+Hints: #495, #504, #516, #526, #542, #554, #562, #568, #578, #587, #607
+
+17.17 Multi Search: Given a string b and an array of smaller strings T, design a method to search b for
+each small string inT,
+Hints: #480, #582, #617, #743
+
+17.18 Shortest Supersequence: You are given two arrays, one shorter (with all distinct elements) and one
+longer. Find the shortest subarray in the longer array that contains all the elements in the shorter
+array. The items can appear in any order.
+EXAMPLE
+Input: { 1 , 5, 9} | {7, S, 9, 0, 2, 3, 5. 7. 9. 1. 1, 5, 8, 8, 9, 7}
+Output: [ 7 , 10] (the underlined portion above)
+Hints: #645, #652, #669, #681, #691, #725, #731, #741
+
+17.19 Missing Two: You are given an array with all the numbers from 1 to N appearing exactly once,
+except for one number that is missing. How can you find the missing number in 0(N) time and
+0 ( 1 ) space? What if there were two numbers missing?
+Hints: #503, #590, #609, #626, #649, #672, #689, #696, #702, #717
+
+
+17.20 Continuous Median: Numbers are randomly generated and passed to a method. Write a program
+to find and maintain the median value as new values are generated.
+Hints: #519, #546, #575, #709
+
+17.21 Volume of Histogram: Imagine a histogram (bar graph). Design an algorithm to compute the
+volume of water it could hold if someone poured water across the top. You can assume that each
+histogram bar has width 1.
+EXAMPLE (Black bars are the histogram. Gray is water.)
+Input: {0., 0, 4j 0, 0, 6, 0, 0, 3, 0, 5, 0, 1, 0, 0, 0}
+0 0 4 0 0 6 0 0 3 0 5 0 1 0 0 0
+Output; 26
+Hints: #629, #640, #651, #658, #662, #676, #693, #734, #742
+
+17.22 Word Transformer: Given two words of equal length that are in a dictionary, write a method to
+transform one word into another word by changing only one letter at a time.The new word you get
+in each step must be in the dictionary.
+EXAMPLE
+Input: DAMP, LIKE
+Output: DAMP -> LAMP -> LIMP -> LIME -> LIKE
+Hints: #506, #535, #556, #580, #598, #618, #738
+
+17.23 Max Black Square: Imagine you have a square matrix, where each cell (pixel) is either black or white
+Design an algorithm to find the maximum subsquare such that all four borders are filled with black
+pixels.
+Hints: #684, #695, #705, #714, #721, #736
+
+17.24 Max Submatrix: Given an NxN matrix of positive and negative integers, write code to find the
+subrnatrix with the largest possible sum.
+Hints: #469, #S11, #525, #539, #565, #581, #595, #615, #621
+
+17.25 Word Rectangle: Given a list of millions of words, design an algorithm to create the largest possible
+rectangle of letters such that every row forms a word (reading left to right) and every column forms
+a word (reading top to bottom). The words need not be chosen consecutively from the list, but all
+rows must be the same length and all columns must be the same height.
+Hints; #477, #500, #748
+
+17.26 Sparse Similarity: The similarity of two documents (each with distinct words) is defined to be the
+size of the intersection divided by the size of the union. For example, if the documents consist of
+integers, the similarity of { I , 5, 3} and { 1 , 7, 2, 3} is 0.4, because the intersection has size
+2 and the union has size 5.
+We have a long list of documents (with distinct values and each with an associated ID) where the
+similarity is believed to be "sparse."That is, any two arbitrarily selected documents are very likely to
+have similarity 0. Design an algorithm that returns a list of pairs of document IDs and the associated
+similarity.
+Print only the pairs with similarity greater than 0, Empty documents should not be printed at all. For
+simplicity, you may assume each document is represented as an array of distinct integers.
+EXAMPLE
+Input:
+13: {14j 15, 100, 9, 3}
+16: <32, 1, 9, 3, 5}
+19: {15, 29, 2, 6, 8, 7}
+24: {7, 10}
+Output:
+ID1, ID2 : SIMILARITY
+13, 19 : 0.1
+13, 16 : 0.25
+19, 24 : 0.14285714285714285
+Hints: #484, #498, #510, #518, #534, #547, #555, #561, #569, #577, #584, #603, #611, #636

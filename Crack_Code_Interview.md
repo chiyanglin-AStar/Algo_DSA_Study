@@ -12,7 +12,7 @@
 
    [C++ program for hashing with chaining](https://www.geeksforgeeks.org/c-program-hashing-chaining/)
    
-[2.Linked Lists](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-Lists)
+[2.Linked List](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-List)
 
 [3.Stack Queue](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Stack-Queue)
 

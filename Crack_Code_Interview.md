@@ -32,7 +32,7 @@
 
 [11.Testing](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Testing)
 
-[12.C and C++](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#C-and-C++)
+[12.C and C++](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#C-and-Cplusplus)
 
 [13.Databases](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Databases)
 
@@ -443,7 +443,7 @@ Hints: #389
 # Testing
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
-# C and C++
+# C and Cplusplus
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions

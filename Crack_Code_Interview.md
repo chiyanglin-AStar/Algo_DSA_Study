@@ -152,16 +152,18 @@ FOLLOW UP
 How would you solve this problem if a temporary buffer is not allowed?
 Hints: #9, #40
 
-[Remove duplicates from an unsorted linked list](https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/)
+ref:
+  1. [Remove duplicates from an unsorted linked list](https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/)
 
-[82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+  2. [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 2.2 Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.
 Hints: #8, #25, #41, #67, #126
 
-[Program for Nth node from the end of a Linked List](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
+ref: 
+  1. [Program for Nth node from the end of a Linked List](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
 
-[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+  2. [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 2.3 Delete Middle Node: Implement an algorithm to delete a node in the middle (i.e., any node but
 the first and last node, not necessarily the exact middle) of a singly linked list, given only access to
@@ -171,9 +173,10 @@ Input: the node c from the linked list a - >b- >c - >d - >e- >f
 Result: nothing is returned, but the new linked list looks like a - > b - > d - > e - > f
 Hints: #72
 
-[Delete middle of linked list](https://www.geeksforgeeks.org/delete-middle-of-linked-list/)
+ref: 
+  1. [Delete middle of linked list](https://www.geeksforgeeks.org/delete-middle-of-linked-list/)
 
-[2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+  2. [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
 2.4 Partition: Write code to partition a linked list around a value x, such that all nodes less than x come
 before all nodes greater than or equal to x. Ifxis contained within the list, the values of x only need
@@ -184,9 +187,10 @@ Input: 3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 [partition = 5]
 Output: 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8
 Hints: #3, #24
 
-[Partitioning a linked list around a given value and keeping the original order](https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/)
+ref: 
+  1. [Partitioning a linked list around a given value and keeping the original order](https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/)
 
-[86. Partition List](https://leetcode.com/problems/partition-list/)
+  2. [86. Partition List](https://leetcode.com/problems/partition-list/)
 
 2.5 Sum Lists: You have two numbers represented by a linked list, where each node contains a single
 digit. The digits are stored in reverse order, such that the Vs digit is at the head of the list. Write a
@@ -201,17 +205,19 @@ Input: (6 -> 1 -> 7) + (2 -> 9 -> 5).That is, 617 + 295,
 Output:9 -> 1 -> 2,Thatis,912.
 Hints: #7, #30, #71 #95, #109
 
-[Add two numbers represented by Linked List](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-list/)
+ref: 
+  1. [Add two numbers represented by Linked List](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-list/)
 
-[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+  2. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 2.6 Palindrome: Implement a function to check if a linked list is a palindrome.
 Hints: #5, #13, #29, #61, #101
 pg 216
 
-[Function to check if a singly linked list is palindrome](https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/)
+ref:
+  1. [Function to check if a singly linked list is palindrome](https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/)
 
-[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+  2. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 2.7 Intersection; Given two (singly) linked lists, determine if the two lists intersect. Return the intersecting
 node. Note that the intersection is defined based on reference, not value. That is, if the kth
@@ -219,9 +225,10 @@ node of the first linked list is the exact same node (by reference) as the j t h
 linked list, then they are intersecting.
 Hints: #20, #45, #55, #65, #76, #93, #1 1 1, #120, #129
 
-[Write a function to get the intersection point of two Linked Lists](https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/)
+ref: 
+  1. [Write a function to get the intersection point of two Linked Lists](https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/)
 
-[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+  2. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 2.8 Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the
 beginning of the loop.
@@ -236,9 +243,10 @@ Additional Questions: Trees and Graphs (#4,3), Object-Oriented Design (#7.12), S
 (#9.5), Moderate Problems (#16.25), Hard Problems (#17.12).
 Hints start on page 653.
 
-[Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
+ref:
+  1. [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
-[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+  2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 # Stack Queue
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
@@ -248,17 +256,19 @@ Interview Questions
 3.1 Three in One: Describe how you could use a single array to implement three stacks.
 Hints: #2, #12, #38, #58
 
-[How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
+ref:
+  1. [How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 
-[How to implement 3 stacks with one array?](https://stackoverflow.com/questions/4770627/how-to-implement-3-stacks-with-one-array)
+  2. [How to implement 3 stacks with one array?](https://stackoverflow.com/questions/4770627/how-to-implement-3-stacks-with-one-array)
 
 3.2 Stack Min: How would you design a stack which, in addition to push and pop, has a function min
 which returns the minimum eiement? Push, pop and min should ail operate in 0 ( 1 ) time.
 Hints: #27, #59, #78
 
-[Design a stack that supports getMin() in O(1) time and O(1) extra space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
+ref:
+  1. [Design a stack that supports getMin() in O(1) time and O(1) extra space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
 
-[155. Min Stack](https://leetcode.com/problems/min-stack/)
+  2. [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 3.3 Stack of Plates: Imagine a (literal) stack of plates. If the stack gets too high, it might topple.
 Therefore, in real life, we would likely start a new stack when the previous stack exceeds some

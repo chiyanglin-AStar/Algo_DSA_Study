@@ -49,13 +49,11 @@ Interview Questions
 
 1.1 Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
 cannot use additional data structures?
-Hints: #44, #117, #132
 
 ref: 
   1. [Determine if a string has all Unique Characters](https://www.geeksforgeeks.org/determine-string-unique-characters/)
 
 1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
-Hints: #84, #122, #131
 
 ref: 
   1. [Check if two strings are permutation of each other](https://www.geeksforgeeks.org/check-if-two-strings-are-permutation-of-each-other/)
@@ -68,10 +66,8 @@ perform this operation in place.)
 EXAMPLE
 Input: "Mr 3ohn Smith 13
 Output: "Mr%203ohn%20Smith"
-Hints: #53,0118
 
 ref: 
-
   1. [URLify a given string (Replace spaces with %20)](https://www.geeksforgeeks.org/urlify-a-given-string-replace-spaces-with-%20/)
 
   2. [Amazon | Phone screen | URLify a given string (replace spaces with %20)](https://leetcode.com/discuss/interview-question/124608/amazon-phone-screen-urlify-a-given-string-replace-spaces-with-20)
@@ -81,7 +77,6 @@ A palindrome is a word or phrase that is the same forwards and backwards. A perm
 EXAMPLE
 Input: Tact Coa
 Output: True (permutations: "taco cat", "atco e t a " , etc.)
-Hints: #106, h 0134, § 136
 
 ref: 
   1. [Palindrome Permutations The Problem: Write a function that checks whether any permutation of a string is a palindrome](https://medium.com/swlh/palindrome-permutations-9752d8e71c7f)
@@ -99,7 +94,6 @@ p a l e , bake -> false
 Hints: #23, #97, it 130
 
 ref:
-
   1. [Check if edit distance between two strings is one](https://www.geeksforgeeks.org/check-if-two-given-strings-are-at-edit-distance-one/)
 
   2. [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
@@ -108,43 +102,36 @@ ref:
 of repeated characters. For example, the string aabcccccaaa would become a2blc5a3, If the
 "compressed" string would not become smaller than the original string, your method should return
 the original string. You can assume the string has only uppercase and lowercase letters (a - z).
-Hints: #92, if 110
+
 
 ref: 
-
   1. [String Compression](https://kodr.me/en/string-compression)
      
   2. [443. String Compression](https://leetcode.com/problems/string-compression/)
 
 1.7 Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4
 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
-Hints: «51,0100
 
-ref: 
-
+ref:
   1. [Inplace rotate square matrix by 90 degrees | Set 1](https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/)
 
   2. [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 1.8 Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
-Hints: #17, #74, #102
 
-ref: 
-
+ref:
   1. [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 1.9 String Rotation; Assume you have a method i s S u b s t r i n g which checks if one word is a substring
 of another. Given two strings, si and s2, write code to check if s2 is a rotation of si using only one
 call to i s S u b s t r i n g [e.g., "water b o t t l e " is a rotation o P ' e r b o t t l e w a t " ) ,
-Hints: #34, #88,#W4
 
 ref:
-
   1. [796. Rotate String](https://leetcode.com/problems/rotate-string/)
  
 Additional Questions: Object-Oriented Design (#7.12), Recursion (#8.3), Sorting and Searching (#10.9), C++
 (#12.11), Moderate Problems (#16.8, #16.17, #16,22), Hard Problems (#17.4, #17.7, #17.13, #17.22, #17,26).
-Hints start on page 653.
+
 
 # Linked List
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
@@ -152,19 +139,15 @@ Hints start on page 653.
 2.1 Remove Dups: Write code to remove duplicates from an unsorted linked list.
 FOLLOW UP
 How would you solve this problem if a temporary buffer is not allowed?
-Hints: #9, #40
 
 ref:
-
   1. [Remove duplicates from an unsorted linked list](https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/)
 
   2. [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 2.2 Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.
-Hints: #8, #25, #41, #67, #126
 
 ref:
-
   1. [Program for Nth node from the end of a Linked List](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
 
   2. [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -175,10 +158,8 @@ that node.
 EXAMPLE
 Input: the node c from the linked list a - >b- >c - >d - >e- >f
 Result: nothing is returned, but the new linked list looks like a - > b - > d - > e - > f
-Hints: #72
 
 ref: 
-
   1. [Delete middle of linked list](https://www.geeksforgeeks.org/delete-middle-of-linked-list/)
 
   2. [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
@@ -190,10 +171,8 @@ to be after the elements less than x (see below). The partition element x can ap
 EXAMPLE
 Input: 3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 [partition = 5]
 Output: 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8
-Hints: #3, #24
 
 ref:
-
   1. [Partitioning a linked list around a given value and keeping the original order](https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/)
 
   2. [86. Partition List](https://leetcode.com/problems/partition-list/)
@@ -209,20 +188,15 @@ Suppose the digits are stored in forward order. Repeat the above problem.
 EXAMPLE
 Input: (6 -> 1 -> 7) + (2 -> 9 -> 5).That is, 617 + 295,
 Output:9 -> 1 -> 2,Thatis,912.
-Hints: #7, #30, #71 #95, #109
 
 ref:
-
   1. [Add two numbers represented by Linked List](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-list/)
 
   2. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 2.6 Palindrome: Implement a function to check if a linked list is a palindrome.
-Hints: #5, #13, #29, #61, #101
-pg 216
 
 ref:
-
   1. [Function to check if a singly linked list is palindrome](https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/)
 
   2. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
@@ -231,10 +205,8 @@ ref:
 node. Note that the intersection is defined based on reference, not value. That is, if the kth
 node of the first linked list is the exact same node (by reference) as the j t h node of the second
 linked list, then they are intersecting.
-Hints: #20, #45, #55, #65, #76, #93, #1 1 1, #120, #129
 
 ref:
-
   1. [Write a function to get the intersection point of two Linked Lists](https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/)
 
   2. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
@@ -247,13 +219,11 @@ as to make a loop in the linked list.
 EXAMPLE
 Input: A - > 8 - > C - > D - > E - > C [the same C as earlier]
 Output: C
-Hints: #50, #69, #83, #90
+
 Additional Questions: Trees and Graphs (#4,3), Object-Oriented Design (#7.12), System Design and Scalability
 (#9.5), Moderate Problems (#16.25), Hard Problems (#17.12).
-Hints start on page 653.
 
 ref:
-
   1. [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
   2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -264,20 +234,16 @@ ref:
 Interview Questions
 
 3.1 Three in One: Describe how you could use a single array to implement three stacks.
-Hints: #2, #12, #38, #58
 
 ref:
-
   1. [How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 
   2. [How to implement 3 stacks with one array?](https://stackoverflow.com/questions/4770627/how-to-implement-3-stacks-with-one-array)
 
 3.2 Stack Min: How would you design a stack which, in addition to push and pop, has a function min
 which returns the minimum eiement? Push, pop and min should ail operate in 0 ( 1 ) time.
-Hints: #27, #59, #78
 
 ref:
-
   1. [Design a stack that supports getMin() in O(1) time and O(1) extra space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
 
   2. [155. Min Stack](https://leetcode.com/problems/min-stack/)
@@ -292,14 +258,26 @@ FOLLOW UP
 Implement a function popAt( i n t index) which performsa pop operation on a specific sub-stack.
 Hints: #64, #81
 
+ref: 
+  1. [Stack of Plates: Cracking the coding interview](Stack of Plates: Cracking the coding interview)
+
+  2. [Stack Of Plates](https://github.com/chiyanglin-AStar/Algo_study/edit/main/Crack_Code_Interview.md)
+  
 3.4 Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
-Hints: #98, #114
-pg 236
+
+ref:
+  1. [Queue using Stacks](https://www.geeksforgeeks.org/queue-using-stacks/)
+
+  2. [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 3.5 Sort Stack: Write a program to sort a stack such that the smallest items are on the top. You can use
 an additional temporary stack, but you may not copy the elements into any other data structure
 (such as an array). The stack supports the following operations: push, pop, peek, and is Empty.
-Hints: #15, »32,043
+
+ref:
+  1. [Sort a stack using a temporary stack](https://www.geeksforgeeks.org/sort-stack-using-temporary-stack/)
+
+  2. [Given a stack, sort it in non-decreasing order](https://leetcode.com/discuss/interview-question/125398/given-a-stack-sort-it-in-non-decreasing-order)
 
 3.6 Animal SheltenAn animal shelter, which holds only dogs and cats, operates on a strictly "first in, first
 out" basis. People must adopt either the "oldest" (based on arrival time) of all animals at the shelter,
@@ -307,36 +285,60 @@ or they can select whether they would prefer a dog or a cat (and will receive th
 that type). They cannot select which specific animal they would like. Create the data structures to
 maintain this system and implement operations such as enqueue, dequeueAny, dequeueDog,
 and dequeueCat.You may use the built-in L i n k e d L i s t data structure.
-Hints: #22, #56, #63
+
+
 Additional Questions: Linked Lists (#2.6), Moderate Problems (#16.26), Hard Problems (#17.9).
 Hints start on page 653.
 
 # Tree Graphs
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
-4,1 Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a
+4.1 Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a
 route between two nodes.
-Hints:
 
-4,2 Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm
+ref:
+  1. [Find if there is a path between two vertices in a directed graph]()
+
+4.2 Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm
 to create a binary search tree with minimal height.
-Hints: /* 19,473,0116
 
+ref:
+  1. [Sorted Array to Balanced BST](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/)
+
+  2. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+  
 4.3 List of Depths: Given a binary tree, design an algorithm which creates a linked list of all the nodes
 at each depth (e.g., if you have a tree with depth D, you'll have D linked lists).
-Hints: #107, #123, #135
+
+ref:
+  1. [Flatten a binary tree into linked list](https://www.geeksforgeeks.org/flatten-a-binary-tree-into-linked-list/)
+  
+  2. [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 4.4 Check Balanced: Implement a function to check if a binary tree is balanced. For the purposes of
 this question, a balanced tree is defined to be a tree such that the heights of the two subtrees of any
 node never differ by more than one.
-Hints: #21, #33, #49, #105, #124
+
+ref:
+  1. [How to determine if a binary tree is height-balanced?](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/)
+
+  2. [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
 4.5 Validate BST: Implement a function to check if a binary tree is a binary search tree.
-Hints: #35, #57, #86, #113, #128
+
+ref:
+  1. [A program to check if a Binary Tree is BST or not](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+
+  2. [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 4.6 Successor: Write an algorithm to find the "next" node (i.e., in-order successor) of a given node in a
 binary search tree. You may assume that each node has a link to its parent.
-Hints: #79, #91
+
+ref:
+  1. []()
+  
+  2. []()
+
 
 4.7 Build Order: You are given a list of projects and a list of dependencies (which is a list of pairs of
 projects, where the second project is dependent on the first project). Ail of a project's dependencies

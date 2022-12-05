@@ -130,6 +130,7 @@ ref:
 Hints: #17, #74, #102
 
 ref: 
+
   1. [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 1.9 String Rotation; Assume you have a method i s S u b s t r i n g which checks if one word is a substring
@@ -138,6 +139,7 @@ call to i s S u b s t r i n g [e.g., "water b o t t l e " is a rotation o P ' e 
 Hints: #34, #88,#W4
 
 ref:
+
   1. [796. Rotate String](https://leetcode.com/problems/rotate-string/)
  
 Additional Questions: Object-Oriented Design (#7.12), Recursion (#8.3), Sorting and Searching (#10.9), C++
@@ -153,6 +155,7 @@ How would you solve this problem if a temporary buffer is not allowed?
 Hints: #9, #40
 
 ref:
+
   1. [Remove duplicates from an unsorted linked list](https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/)
 
   2. [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
@@ -160,7 +163,8 @@ ref:
 2.2 Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.
 Hints: #8, #25, #41, #67, #126
 
-ref: 
+ref:
+
   1. [Program for Nth node from the end of a Linked List](https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/)
 
   2. [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -174,6 +178,7 @@ Result: nothing is returned, but the new linked list looks like a - > b - > d - 
 Hints: #72
 
 ref: 
+
   1. [Delete middle of linked list](https://www.geeksforgeeks.org/delete-middle-of-linked-list/)
 
   2. [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
@@ -187,7 +192,8 @@ Input: 3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 [partition = 5]
 Output: 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8
 Hints: #3, #24
 
-ref: 
+ref:
+
   1. [Partitioning a linked list around a given value and keeping the original order](https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/)
 
   2. [86. Partition List](https://leetcode.com/problems/partition-list/)
@@ -205,7 +211,8 @@ Input: (6 -> 1 -> 7) + (2 -> 9 -> 5).That is, 617 + 295,
 Output:9 -> 1 -> 2,Thatis,912.
 Hints: #7, #30, #71 #95, #109
 
-ref: 
+ref:
+
   1. [Add two numbers represented by Linked List](https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-list/)
 
   2. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
@@ -215,6 +222,7 @@ Hints: #5, #13, #29, #61, #101
 pg 216
 
 ref:
+
   1. [Function to check if a singly linked list is palindrome](https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/)
 
   2. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
@@ -225,7 +233,8 @@ node of the first linked list is the exact same node (by reference) as the j t h
 linked list, then they are intersecting.
 Hints: #20, #45, #55, #65, #76, #93, #1 1 1, #120, #129
 
-ref: 
+ref:
+
   1. [Write a function to get the intersection point of two Linked Lists](https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/)
 
   2. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
@@ -244,6 +253,7 @@ Additional Questions: Trees and Graphs (#4,3), Object-Oriented Design (#7.12), S
 Hints start on page 653.
 
 ref:
+
   1. [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
   2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -257,6 +267,7 @@ Interview Questions
 Hints: #2, #12, #38, #58
 
 ref:
+
   1. [How to efficiently implement k stacks in a single array?](https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/)
 
   2. [How to implement 3 stacks with one array?](https://stackoverflow.com/questions/4770627/how-to-implement-3-stacks-with-one-array)
@@ -266,6 +277,7 @@ which returns the minimum eiement? Push, pop and min should ail operate in 0 ( 1
 Hints: #27, #59, #78
 
 ref:
+
   1. [Design a stack that supports getMin() in O(1) time and O(1) extra space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
 
   2. [155. Min Stack](https://leetcode.com/problems/min-stack/)

@@ -676,6 +676,10 @@ ref:
 * operator. You can use addition, subtraction, and bit shifting, but you should minimize the number
 of those operations.
 
+ref:
+  1. [Product of 2 Numbers using Recursion](https://www.geeksforgeeks.org/product-2-numbers-using-recursion/)
+
+  2. [how to multiply two positive integers using recursion?](https://stackoverflow.com/questions/71466603/how-to-multiply-two-positive-integers-using-recursion)
 
 8.6 Towers of Hanoi: In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of
 different sizes which can slide onto any tower. The puzzle starts with disks sorted in ascending order
@@ -685,15 +689,21 @@ constraints:
 (2) A disk is slid off the top of one tower onto another tower.
 (3) A disk cannot be placed on top of a smaller disk.
 Write a program to move the disks from the first tower to the last using stacks.
-Hints: #144, #224, #250, #272, #318
+
+ref:
+   1. [Program for Tower of Hanoi Algorithm](https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/)
 
 8.7 Permutations without Dups: Write a method to compute all permutations of a string of unique
 characters.
 
+ref:
+  1. [Distinct permutations of the string | Set 2](https://www.geeksforgeeks.org/distinct-permutations-string-set-2/)
+  
+  2. [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
 
 8.8 Permutations with Dups: Write a method to compute all permutations of a string whose characters
 are not necessarily unique. The list of permutations should not have duplicates.
-Hints: #161, #190, #222, #255
+
 
 8.9 Parens; implement an algorithm to print all valid (e.g., properly opened and closed) combinations
 of n pairs of parentheses.
@@ -701,6 +711,10 @@ EXAMPLE
 Input: 3
 O u t p u t : ( ( ( ) ) ) , ( 0 0 : ) , ( ( » ( > , 0 ( 0 ) , 0 0 0
 
+ref:
+  1. [Print all combinations of balanced parentheses](https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/)
+  
+  2. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 
 8.10 Paint Fill: Implement the "paint fill"function that one might see on many image editing programs.
 That is, given a screen (represented by a two-dimensional array of colors), a point, and a new color,
@@ -710,17 +724,25 @@ fill in the surrounding area until the color changes from the original cofor.
 8.11 Coins: Given an infinite number of quarters (25 cents), dimes (10 cents), nickels (5 cents), and
 pennies (1 cent), write code to calculate the number of ways of representing n cents.
 
+ref: 
+   1. [Coins Problem](https://leetcode.com/discuss/general-discussion/471566/coins-problem)
+
 
 8.12 Eight Queens: Write an algorithm to print all ways of arranging eight queens on an 8x8 chess board
 so that none of them share the same row, column, or diagonal. In this case, "diagonal" means all
 diagonals, not just the two that bisect the board.
 
-
+ref: 
+  1. [8 queen problem](https://www.geeksforgeeks.org/8-queen-problem/)
+ 
+ 
 8.13 Stack of Boxes: You have a stack of n boxes, with widths w4, heights ht , and depths dr The boxes
 cannot be rotated and can only be stacked on top of one another if each box in the stack is strictly
 larger than the box above it in width, height, and depth. Implement a method to compute the
 height of the tallest possible stack. The height of a stack is the sum of the heights of each box.
 
+ref:
+  1. [Box Stacking Problem | DP-22](https://github.com/chiyanglin-AStar/Algo_study/edit/main/Crack_Code_Interview.md)
 
 8.14 Boolean Evaluation: Given a boolean expression consisting of the symbols 0 (false), 1 (true), &
 (AND), | (OR), and A (XOR), and a desired boolean result value r e s u l t , implement a function to
@@ -729,6 +751,10 @@ EXAMPLE
 c o u n t E v a l ( " l A e | 0 j l M , f a l s e ) -> 2
 c o u n t E v a l ( " 0 & 0 & 0 & l A l | 0 " , t r u e ) -> 10
 
+ref:
+  1. [Boolean Parenthesization Problem | DP-37](https://www.geeksforgeeks.org/boolean-parenthesization-problem-dp-37/)
+  
+  2. [Boolean Parenthesization ( EASY || C++)](https://leetcode.com/discuss/general-discussion/1279635/boolean-parenthesization-easy-c)
 
 Additional Questions: Linked Lists (#2.2, #2.5, #2.6), Stacks and Queues (#3.3), Trees and Graphs (#4.2, #4,3,
 #4.4, #4.5, #4,8, #4.10, #4.11, #4.12), Math and Logic Puzzles (#6,6), Sorting and Searching (#10.5, #10.9,
@@ -757,13 +783,21 @@ any mechanism you choose.
 or Linkedln? Describe how you would design an algorithm to show the shortest path between
 two people (e.g.. Me -> Bob -> Susan -> Jason -> You).
 
+ref:
+  1. [Design data structures for a very large social network like Facebook or Linkedln](https://www.geeksforgeeks.org/design-data-structures-for-a-very-large-social-network-like-facebook-or-linkedln/)
 
 9.3 Web Crawler: If you were designing a web crawler, how would you avoid getting into infinite loops?
 
+ref: 
+  1. [Facebook | System Design | Web Crawler](https://leetcode.com/discuss/interview-question/962461/Facebook-or-System-Design-or-Web-Crawler/782832)
+  
+  2. [Designing a web crawler](https://stackoverflow.com/questions/5834808/designing-a-web-crawler)
 
 9.4 Duplicate URLs: You have 10 billion URLs. How do you detect the duplicate documents? In this
 case, assume "duplicate" means that the URLs are identical.
 
+ref:
+  1. [given 10 billion URL with average length 100 characters per each url, check duplicate](https://stackoverflow.com/questions/45393165/given-10-billion-url-with-average-length-100-characters-per-each-url-check-dupl)
 
 
 9.5 Cache: Imagine a web server for a simplified search engine. This system has 100 machines to
@@ -787,9 +821,11 @@ make recommendations.
 
 9.8 Pastebin: Design a system like Pastebin, where a user can enter a piece of text and get a randomly
 generated URL to access it.
+
+ref:
+  1. [Design Pastebin](https://leetcode.com/discuss/interview-question/system-design/124804/Design-Pastebin)
+
 Additional Questions: Object-Oriented Design (#7.7)
-
-
 
 
 # Sorting and Searching
@@ -799,10 +835,20 @@ Interview Questions
 10.1 Sorted Merge: You are given two sorted arrays, A and B, where A has a large enough buffer at the
 end to hold B. Write a method to merge B into A in sorted order.
 
+ref: 
+   1. [Sorted merge in one array](https://www.geeksforgeeks.org/sorted-merge-one-array/)
+   
+   2. [Merge two sorted arrays](https://www.geeksforgeeks.org/merge-two-sorted-arrays/)
+
+   3. [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 10.2 Group Anagrams: Write a method to sort an array of strings so that all the anagrams are next to
 each other.
 
+ref:
+  1. [Given a sequence of words, print all anagrams together | Set 1](https://leetcode.com/problems/group-anagrams/)
+
+  2. [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 10.3 Search in Rotated Array: Given a sorted array of n integers that has been rotated an unknown
 number of times, write code to find an element in the array. You may assume that the array was
@@ -811,6 +857,11 @@ EXAMPLE
 Input: find 5 in [15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14}
 Output: 8 (the index of 5 in the array)
 
+ref:
+  1. [Search an element in a sorted and rotated Array](https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
+  
+  2. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
 
 10.4 Sorted Search, No Size: You are given an array-like data structure L i s t y which lacks a size
 method. It does, however, have an elementAt ( i ) method that returns the element at index i in
@@ -818,7 +869,11 @@ method. It does, however, have an elementAt ( i ) method that returns the elemen
 structure only supports positive integers.) Given a L i s t y which contains sorted, positive integers,
 find the index at which an element X occurs. If x occurs multiple times, you may return any index.
 
+ref:
+  1. [Find the Missing Number in a sorted array](https://www.geeksforgeeks.org/find-the-missing-number-in-a-sorted-array/)
+  
 
+  
 10.5 Sparse Search: Given a sorted array of strings that is interspersed with empty strings, write a
 method to find the location of a given string.
 EXAMPLE

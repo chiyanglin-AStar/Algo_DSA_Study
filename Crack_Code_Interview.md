@@ -734,8 +734,7 @@ diagonals, not just the two that bisect the board.
 
 ref: 
   1. [8 queen problem](https://www.geeksforgeeks.org/8-queen-problem/)
- 
- 
+  
 8.13 Stack of Boxes: You have a stack of n boxes, with widths w4, heights ht , and depths dr The boxes
 cannot be rotated and can only be stacked on top of one another if each box in the stack is strictly
 larger than the box above it in width, height, and depth. Implement a method to compute the
@@ -1660,6 +1659,15 @@ ref:
 17.20 Continuous Median: Numbers are randomly generated and passed to a method. Write a program
 to find and maintain the median value as new values are generated.
 
+ref:
+  1. [Median in a stream of integers (running integers)](https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/)
+
+  2. [Median of Stream of Running Integers using STL](https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/)
+  
+  3. [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+  4. [Find median of randomly generated numbers](https://stackoverflow.com/questions/25280679/find-median-of-randomly-generated-numbers)
+
 
 17.21 Volume of Histogram: Imagine a histogram (bar graph). Design an algorithm to compute the
 volume of water it could hold if someone poured water across the top. You can assume that each
@@ -1669,6 +1677,12 @@ Input: {0., 0, 4j 0, 0, 6, 0, 0, 3, 0, 5, 0, 1, 0, 0, 0}
 0 0 4 0 0 6 0 0 3 0 5 0 1 0 0 0
 Output; 26
 
+ref:
+  1. [Largest Rectangular Area in a Histogram using Stack](https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-using-stack/)
+
+  2. [Add water between in a bar chart](https://stackoverflow.com/questions/43398839/add-water-between-in-a-bar-chart)
+
+  3. [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 17.22 Word Transformer: Given two words of equal length that are in a dictionary, write a method to
 transform one word into another word by changing only one letter at a time.The new word you get
@@ -1685,6 +1699,13 @@ pixels.
 
 17.24 Max Submatrix: Given an NxN matrix of positive and negative integers, write code to find the
 subrnatrix with the largest possible sum.
+
+ref:
+  1. [Maximum sum submatrix](https://www.geeksforgeeks.org/maximum-sum-submatrix/)
+
+  2. [Given an n x n square matrix, find sum of all sub-squares of size k x k](https://www.geeksforgeeks.org/given-n-x-n-square-matrix-find-sum-sub-squares-size-k-x-k/)
+
+  3. [1074. Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)
 
 
 17.25 Word Rectangle: Given a list of millions of words, design an algorithm to create the largest possible

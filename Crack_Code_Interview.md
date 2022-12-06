@@ -881,9 +881,20 @@ Input: b a l l , { " a t " , " " , " " , " " , " b a l l " , "", " c a r " , " "
 any
 Output: 4
 
+ref: 
+  1. [Sparse Search](https://www.geeksforgeeks.org/sparse-search/)
+  
+  2. [Sparse search in a sorted array](https://leetcode.com/discuss/general-discussion/468170/sparse-search-in-a-sorted-array)
 
 10.6 Sort Big File: Imagine you have a 20 GB file with one string per line. Explain how you would sort
 the file.
+
+ref:
+  1. [Sorting a 20GB file with one string per line](https://stackoverflow.com/questions/14817120/sorting-a-20gb-file-with-one-string-per-line)
+
+  2. [Sorting larger file with smaller RAM](https://www.geeksforgeeks.org/sorting-larger-file-with-smaller-ram/)
+
+  3. [External Sorting](https://www.geeksforgeeks.org/external-sorting/)
 
 
 10.7 Missing Int: Given an input file with four billion non-negative integers, provide an algorithm to
@@ -893,14 +904,29 @@ FOLLOW UP
 What if you have only 10 MB of memory? Assume that ail the values are distinct and we now have
 no more than one billion non-negative integers.
 
-
+ref: 
+   1. [Generate an integer that is not among four billion given ones](https://stackoverflow.com/questions/7153659/generate-an-integer-that-is-not-among-four-billion-given-ones)
+   
 10.8 Find Duplicates: You have an array with all the numbers from 1 to N, where N is at most 32,000.The
 array may have duplicate entries and you do not know what N is. With only 4 kilobytes of memory
 available, how would you print alt duplicate elements in the array?
 
-
+ref:
+  1. [Find Duplicates of array using bit array](https://www.geeksforgeeks.org/find-duplicates-of-array-using-bit-array/)
+  
+  2. [Find duplicates in O(n) time and O(1) extra space | Set 1](https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/)
+  
+  3. [https://leetcode.com/problems/find-all-duplicates-in-an-array/](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+  
 10.9 Sorted Matrix Search: Given an M x N matrix in which each row and each column is sorted in
 ascending order, write a method to find an element.
+
+ref:
+  1. [Search in a row wise and column wise sorted matrix](https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
+  
+  2. [Search element in a sorted matrix](https://www.geeksforgeeks.org/search-element-sorted-matrix/)
+  
+  3. [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 
 10.10 Rank from Stream: Imagine you are reading in a stream of integers. Periodically, you wish to be able
@@ -914,6 +940,10 @@ getRankOfNumber(l) = 0
 getRank0fNumber(3) = 1
 getRank0fNumber(4) = 3
 
+ref:
+  1. [Rank of an element in a stream](https://www.geeksforgeeks.org/rank-element-stream/)
+  
+  2. [Amazon || SDE2 Onsite || Rank of an element in a stream](https://leetcode.com/discuss/interview-question/1057103/amazon-sde2-onsite-rank-of-an-element-in-a-stream)
 
 10.11 Peaks and Valleys: In an array of integers, a "peak" is an element which is greater than or equal to
 the adjacent integers and a "valley" is an element which is less than or equal to the adjacent integers.
@@ -938,18 +968,25 @@ unsigned i n t i;
 for {i = 100; i >= 0; --i)
 printf ("%d\niJj l)j
 
+ref: 
+  1. [What's the mistake in this code? unsigned int i](https://stackoverflow.com/questions/34832902/whats-the-mistake-in-this-code-unsigned-int-i-for-i-100-i-0-i-print)
+
 
 11.2 Random Crashes: You are given the source to an application which crashes when it is run. After
 running it ten times in a debugger, you find it never crashes in the same place. The application is
 single threaded, and uses only the C standard library. What programming errors could be causing
 this crash? How would you test each one?
 
+ref: 
+  1. [Debugging a program that crashes 10 times in different places](https://stackoverflow.com/questions/4531742/debugging-a-program-that-crashes-10-times-in-different-places)
 
 11.3 Chess Test: We have the following method used in a chess game: boolean canMoveTo(int x,
 i n t y). This method is part of the Piece class and returns whether or not the piece can move to
 position ( x , y). Explain how you would test this method.
 
-
+ref: 
+  1. [Design a Chess Game](https://www.geeksforgeeks.org/design-a-chess-game/)
+  
 11.4 No Test Tools: How would you load test a webpage without using any test tools?
 
 
@@ -965,40 +1002,77 @@ position ( x , y). Explain how you would test this method.
 Interview Questions
 12.1 Last K Lines: Write a method to print the last K lines of an input file using C++.
 
+ref:
+  1. [Program to print last 10 lines](https://www.geeksforgeeks.org/print-last-10-lines-of-a-given-file/)
+  
+  2. [reading last n lines from file in c/c++](https://stackoverflow.com/questions/17877025/reading-last-n-lines-from-file-in-c-c)
 
 12.2 Reverse String: Implement a function v o i d reverse( c h a r * s t r ) in C or C++which reverses
 a null-terminated string.
 
+ref:
+  1. [Different Methods to Reverse a String in C++](https://www.geeksforgeeks.org/reverse-a-string-in-c-cpp-different-methods/)
+  
+  2. [void function(no printing)- reverse a string using recursion](https://stackoverflow.com/questions/27754181/void-functionno-printing-reverse-a-string-using-recursion)
 
 12.3 Hash Table vs. STL Map: Compare and contrast a hash table and an STL map. How is a hash table
 implemented? If the number of inputs is small, which data structure options can be used instead of
 a hash table?
 
+  1. [Hash Table vs STL Map](https://www.geeksforgeeks.org/hash-table-vs-stl-map/)
+  
+  2. [Hash Table v/s STL map in C++](https://stackoverflow.com/questions/2460387/hash-table-v-s-stl-map-in-c)
 
 12.4 Virtual Functions: How do virtual functions work in C++?
 
+ref:
+  1. [Virtual Function in C++](https://www.geeksforgeeks.org/virtual-function-cpp/)
 
 12.5 Shallow vs. Deep Copy: What is the difference between deep copy and shallow copy? Explain how
 you would use each.
 
+ref:
+  1. [Difference between Shallow and Deep copy of a class](https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/)
+  
+  2. [What is the difference between a deep copy and a shallow copy?](https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy)
 
 12.6 Volatile: What is the significance of the keyword "volatile" in C?
+
+ref:
+  1. [Understanding “volatile” qualifier in C | Set 2 (Examples)](https://www.geeksforgeeks.org/understanding-volatile-qualifier-in-c/)
+  
+  2. [Why is volatile needed in C?](https://stackoverflow.com/questions/246127/why-is-volatile-needed-in-c)
 
 
 12.7 Virtual Base Class: Why does a destructor in base class need to be declared v i r t u a l ?
 
-
+ref: 
+  1. [Virtual Destructor](https://www.geeksforgeeks.org/virtual-destructor/)
+  
+  2. [Why should the destructor of base classes be virtual?](https://stackoverflow.com/questions/5873515/why-should-the-destructor-of-base-classes-be-virtual)
+  
 12.8 Copy Node; Write a method that takes a pointer to a Node structure as a parameter and returns a
 complete copy of the passed in data structure. The Node data structure contains two pointers to
 other Nodes.
 
+ref: 
+  1. [Insertion in Doubly Circular Linked List](https://www.geeksforgeeks.org/insertion-in-doubly-circular-linked-list/)
+  
+  2. [Structure Pointer in C](https://www.geeksforgeeks.org/structure-pointer-in-c/)
+
+  3. [Interview Coding - Take a pointer to a Node structure as a parameter and return a complete copy of the passed-in data structure](https://www.geeksforgeeks.org/structure-pointer-in-c/)
 
 12.9 Smart Pointer: Write a smart pointer class. A smart pointer is a data type, usually implemented with
 templates, that simulates a pointer while also providing automatic garbage collection. It automatically
 counts the number of references to a Smart P o i n t er<T*> object and frees the object of type
 T when the reference count hits zero.
 
-
+ref:
+  1. [Smart Pointers in C++ and How to Use Them](https://www.geeksforgeeks.org/smart-pointers-cpp/)
+  
+  2. [What is the best way to implement smart pointers in C++?](https://stackoverflow.com/questions/503833/what-is-the-best-way-to-implement-smart-pointers-in-c)
+  
+  
 12.10 Malloc: Write an aligned malloc and free function that supports allocating memory such that the
 memory address returned is divisible by a specific power of two.
 EXAMPLE
@@ -1006,11 +1080,15 @@ a l i g n j n a l l o c (1000,128) will return a memory address that is a multip
 to memory of size 1000 bytes.
 a l i g n e d _ f r e e ( ) will free memory allocated by a l i g n j u a l l o c .
 
+ref:
+  1. [aligned malloc c++ implementation](https://stackoverflow.com/questions/51936866/aligned-malloc-c-implementation)
 
 12.11 2D Alloc: Write a function in C called riy2DAlloc which allocates a two-dimensional array. Minimize
 the number of calls to m a l l o c and make sure that the memory is accessible by the notation
 a r r [ i ] [ j ] .
 
+ref:
+  1. [How to dynamically allocate a 2D array in C?](https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/)
 
 Additional Questions: Linked Lists (#2.6), Testing (#11.1), Java (#13.4), Threads and Locks (#15.3).
 
@@ -1024,8 +1102,16 @@ Additional Questions: Linked Lists (#2.6), Testing (#11.1), Java (#13.4), Thread
 Interview Questions
 15.1 Thread vs. Process: What's the difference between a thread and a process?
 
-
+ref:
+  1. [Difference between Process and Thread](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
+  
+    
 15.2 Context Switch: How would you measure the time spent in a context switch?
+
+ref: 
+  1. [Measure the time spent in context switch?](https://www.geeksforgeeks.org/measure-time-spent-context-switch/)
+  
+  2. [how can you measure the time spent in a context switch under java platform](https://stackoverflow.com/questions/6987394/how-can-you-measure-the-time-spent-in-a-context-switch-under-java-platform)
 
 
 15.3 Dining Philosophers: In the famous dining philosophers problem, a bunch of philosophers are
@@ -1034,9 +1120,15 @@ both chopsticks to eat, and always picks up the left chopstick before the right 
 could potentially occur if all the philosophers reached for the left chopstick at the same time. Using
 threads and locks, implement a simulation of the dining philosophers problem that prevents deadlocks.
 
+ref:
+  1. [Dining Philosopher Problem Using Semaphores](https://www.geeksforgeeks.org/dining-philosopher-problem-using-semaphores/)
 
 15.4 Deadlock-Free Class: Design a class which provides a lock only if there are no possible deadlocks.
 
+ref:
+  1. [Deadlock in Java Multithreading](https://www.geeksforgeeks.org/deadlock-in-java-multithreading/)
+  
+  2. [Design a class which provides a lock only if there are no possible deadlocks](https://stackoverflow.com/questions/5171649/design-a-class-which-provides-a-lock-only-if-there-are-no-possible-deadlocks)
 
 15.5 Call In Order; Suppose we have the following code:
 public class Foo {

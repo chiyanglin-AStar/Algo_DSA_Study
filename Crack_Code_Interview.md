@@ -1141,10 +1141,16 @@ The same instance of Foo will be passed to three different threads. ThreadA will
 threadB will call second, and threadC will call t h i r d . Design a mechanism to ensure that
 f i r s t is called before second and second is called before t h i r d .
 
+ref:
+  1. [1114. Print in Order](https://leetcode.com/problems/print-in-order/)
+
 
 15.6 Synchronized Methods: You are given a class with synchronized method A and a normal method
 B. If you have two threads in one instance of a program, can they both execute A at the same time?
 Can they execute A and B at the same time?
+
+ref:
+  1. [If I synchronized two methods on the same class, can they run simultaneously?](https://stackoverflow.com/questions/15438727/if-i-synchronized-two-methods-on-the-same-class-can-they-run-simultaneously)
 
 
 15.7 FizzBuzz: In the classic problem FizzBuzz, you are told to print the numbers from 1 to n. However,
@@ -1160,20 +1166,48 @@ is responsible for divisibility of 3 and 5 and prints "FizzBuzz". A fourth threa
 
 16.1 Number Swapper: Write a function to swap a number in place (that is, without temporary variables).
 
+ref:
+  1. [How to swap two numbers without using a temporary variable?](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/)
 
 16.2 Word Frequencies: Design a method to find the frequency of occurrences of any given word in a
 book. What if we were running this algorithm multiple times?
+
+ref:
+  1. [Calculate the frequency of each word in the given string](https://www.geeksforgeeks.org/calculate-the-frequency-of-each-word-in-the-given-string/)
+
+  2. [Most frequent word in an array of strings](https://www.geeksforgeeks.org/frequent-word-array-strings/)
+
+  3. [How to find high frequency words in a book in an environment low on memory?](https://stackoverflow.com/questions/742125/how-to-find-high-frequency-words-in-a-book-in-an-environment-low-on-memory)
 
 
 16.3 Intersection: Given two straight line segments (represented as a start point and an end point),
 compute the point of intersection, if any.
 
+ref:
+  1. [Given n line segments, find if any two segments intersect](https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/)
+  
+  2. [Program for Point of Intersection of Two Lines](https://www.geeksforgeeks.org/program-for-point-of-intersection-of-two-lines/)
+
+  3. [How to find whether two line segment(not two straight lines) intersect](https://stackoverflow.com/questions/18928803/how-to-find-whether-two-line-segmentnot-two-straight-lines-intersect)
+
 
 16.4 TicTac Win: Design an algorithm to figure out if someone has won a game of tic-tac-toe.
 
+ref:
+  1. [Validity of a given Tic-Tac-Toe board configuration](https://www.geeksforgeeks.org/validity-of-a-given-tic-tac-toe-board-configuration/)
+  
+  2. [Algorithm for Determining Tic Tac Toe Game Over](https://stackoverflow.com/questions/1056316/algorithm-for-determining-tic-tac-toe-game-over)
+
+  3. [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/)
+
 
 16.5 Factorial Zeros: Write an algorithm which computes the number of trailing zeros in n factorial.
-Hints: #585, #711, #729, #733, #745
+
+ref:
+  1. [Count trailing zeroes in factorial of a number](https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/)
+
+  2. [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+
 
 16.6 Smallest Difference: Given two arrays of integers, compute the pair of values (one value in each
 array) with the smallest (non-negative) difference. Return the difference.
@@ -1181,17 +1215,41 @@ EXAMPLE
 Input: {1, 3,1S, 11, 2}, (23,127, 235,19, 8)
 Output: 3. That is, the pair (11,8).
 
+ref:
+  1. [Smallest Difference pair of values between two unsorted Arrays](https://www.geeksforgeeks.org/smallest-difference-pair-values-two-unsorted-arrays/)
+
+  2. [Find minimum difference between any two elements (pair) in given array](https://www.geeksforgeeks.org/find-minimum-difference-pair/)
+
+  3. [1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)
 
 16.7 Number Max: Write a method that finds the maximum of two numbers. You should not use if-else
 or any other comparison operator.
 
+ref:
+  1. [Compute the minimum or maximum of two integers without branching](https://www.geeksforgeeks.org/compute-the-minimum-or-maximum-max-of-two-integers-without-branching/)
+
+  2. [Explain this snippet which finds the maximum of two integers without using if-else or any other comparison operator?](https://stackoverflow.com/questions/4772780/explain-this-snippet-which-finds-the-maximum-of-two-integers-without-using-if-el)
 
 16.8 English Int: Given any integer, print an English phrase that describes the integer (e.g., "OneThousand,
 Two Hundred Thirty Four").
 
+ref:
+  1. [Program to convert a given number to words](https://www.geeksforgeeks.org/convert-number-to-words/)
+
+  2. [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)
+
+  3. [print an English phrase that describes the integer](https://stackoverflow.com/questions/32943166/print-an-english-phrase-that-describes-the-integer)
+
 
 16.9 Operations: Write methods to implement the multiply, subtract, and divide operations for integers.
 The results of all of these are integers. Use only the add operator.
+
+ref:
+  1. [Implement *, – and / operations using only + arithmetic operator](https://www.geeksforgeeks.org/implement-and-operations-using-only-arithmetic-operator/)
+
+  2. [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
+
+  3. [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 
 
 16.10 Living People: Given a list of people with their birth and death years, implement a method to
@@ -1200,6 +1258,10 @@ between 1900 and 2000 (inclusive). If a person was alive during any portion of t
 be included in that year's count. For example. Person (birth = 1908, death = 1909) is included in the
 counts for both 1908 and 1909.
 
+ref: 
+  1. [1854. Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)
+
+  2. [Find the year with the most number of people alive in Python](https://stackoverflow.com/questions/31522450/find-the-year-with-the-most-number-of-people-alive-in-python)
 
 16.11 Diving Board: You are building a diving board by placing a bunch of planks of wood end-to-end.
 There are two types of planks, one of length s h o r t e r and one of length longer. You must use
@@ -1228,11 +1290,19 @@ objects).
 16.13 Bisect Squares: Given two squares on a two-dimensional plane, find a line that would cut these two
 squares in half. Assume that the top and the bottom sides of the square run parallel to the x-axis.
 
+ref:
+  1. [Minimum length of square to contain at least half of the given Coordinates](https://www.geeksforgeeks.org/minimum-length-of-square-to-contain-at-least-half-of-the-given-coordinates/)
+
+  2. [Falling Squares](https://leetcode.com/problems/falling-squares/solutions/127471/official-solution/)
+
+  3. [Slicing two squares in half equally on a cartesian plane](https://stackoverflow.com/questions/32960654/slicing-two-squares-in-half-equally-on-a-cartesian-plane-finding-midpoint)
 
 16.14 Best Line: Given a two-dimensional graph with points on it, find a line which passes the most
 number of points.
 
-
+ref:
+  1. [Given a two-dimensional graph with points, find a line that passes through the largest number of points](https://stackoverflow.com/questions/52391658/given-a-two-dimensional-graph-with-points-find-a-line-that-passes-through-the-l)
+ 
 16.15 Master Mind: The Game of Master Mind is played as follows:
 The computer has four slots, and each slot will contain a ball that is red (ft), yellow (V), green (G) or
 blue (B). For example, the computer might have RGGB (Slot #1 is red, Slots #2 and #3 are green. Slot
@@ -1252,6 +1322,10 @@ EXAMPLE
 Input: lj 2, 4j 7, 10, 11, 1, 12, 6, 7, 16, 18, 19
 Output: ( 3 , 9)
 
+ref: 
+  1. [Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted](https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/)
+  
+  2. [Shortest Unsorted Continous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/solutions/127627/official-solution/)
 
 16.17 Contiguous Sequence: You are given an array of integers (both positive and negative). Find the
 contiguous sequence with the largest sum. Return the sum.
@@ -1259,13 +1333,23 @@ EXAMPLE
 Input:2, -8, 3, -2, 4, -10
 Output: 5 ( i . e . , {3, -2, 4})
 
+ref:
+  1. [Largest Sum Contiguous Subarray (Kadane’s Algorithm)](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+  
+  2. [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 16.18 Pattern Matching: You are given two strings, p a t t e r n and value.The p a t t e r n string consists of
 just the letters a and b, describing a pattern within a string. For example, the string c a t c a t g o c a t g o
 matches the pattern aabab (where cat is a and go is b). It also matches patterns like a, ab, and b.
 Write a method to determine if v a l u e matches p a t t e r n .
 
+ref:
+  1. [Match a pattern and String without using regular expressions](https://www.geeksforgeeks.org/match-a-pattern-and-string-without-using-regular-expressions/)
 
+  2. [290. Word Pattern](https://leetcode.com/problems/word-pattern/)
+
+  3. [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+  
 16.19 Pond Sizes: You have an integer matrix representing a plot of land, where the value at that location
 represents the height above sea level. A value of zero indicates water. A pond is a region of
 water connected vertically, horizontally, or diagonally. The size of the pond is the total number of
@@ -1277,6 +1361,13 @@ e 1 e 1
 1 1 0 1
 0 1 0 1
 Output: 2,4,1 (in any order)
+
+ref: 
+  1. [Find number of closed islands in given Matrix](https://www.geeksforgeeks.org/find-number-of-closed-islands-in-given-matrix/)
+
+  2. [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
+  3. [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
 
 
 16.20 T9: On old cell phones, users typed on a numeric keypad and the phone would provide a list of
@@ -1294,6 +1385,10 @@ EXAMPLE
 Input: 8733
 Output: tree, used
 
+ref: 
+  1. [Print all possible words from phone digits](https://www.geeksforgeeks.org/find-possible-words-phone-digits/)
+
+  2. [Convert a sentence into its equivalent mobile numeric keypad sequence](https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/)
 
 16.21 Sum Swap: Given two arrays of integers, find a pair of values (one value from each array) that you
 can swap to give the two arrays the same sum.
@@ -1301,6 +1396,10 @@ EXAMPLE
 Input:{4,1,2,1,1, 2}and [3,6, 3,3}
 Output: {1, 3}
 
+ref: 
+  1. [Find a pair of elements swapping which makes sum of two arrays same](https://www.geeksforgeeks.org/find-a-pair-swapping-which-makes-sum-of-two-arrays-same/)
+
+  2. [1775. Equal Sum Arrays With Minimum Number of Operations]()
 
 16.22 Langton's Ant: An ant is sitting on an infinite grid of white and biack squares. It initially faces right.
 At each step, it does the following:
@@ -1318,9 +1417,24 @@ nothing.The method signature might be something like v o i d printKMoves( i n t 
 generates a random number between 0 and 4 (inclusive), write a method that generates a random
 number between 0 and 6 (inclusive).
 
+ref: 
+  1. [Generate integer from 1 to 7 with equal probability](https://www.geeksforgeeks.org/generate-integer-from-1-to-7-with-equal-probability/)
+
+  2. [Expand a random range from 1–5 to 1–7](https://stackoverflow.com/questions/137783/expand-a-random-range-from-1-5-to-1-7)
+
+  3. [470. Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
 16.24 Pairs with Sum: Design an algorithm to find all pairs of integers within an array which sum to a
 specified value.
+
+ref:
+  1. [Count pairs with given sum](https://www.geeksforgeeks.org/count-pairs-with-given-sum/)
+
+  2. [Check if a pair exists with given sum in given array](https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/)
+
+  3. [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
+  4. [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 
 
 16.25 LRU Cache: Design and build a "least recently used" cache, which evicts the least recently used
@@ -1335,6 +1449,12 @@ EXAMPLE
 Input; 2*3+5/6*3+15
 Output: 23.5
 
+ref:
+  1. [Arrange given numbers in a mathematical expression using operators [+, -, *, /] and parentheses to get value 2](https://www.geeksforgeeks.org/arrange-given-numbers-in-a-mathematical-expression-using-operators-and-parentheses-to-get-value-24/)
+
+   2. [Find all possible outcomes of a given expression](https://www.geeksforgeeks.org/find-all-possible-outcomes-of-a-given-expression/)
+
+   3. [2232. Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)
 
 # Hard
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
@@ -1342,25 +1462,55 @@ Output: 23.5
 17.1 Add Without Plus: Write a function that adds two numbers. You should not use + or any arithmetic
 operators.
 
+ref:
+  1. [Add two numbers without using arithmetic operators](https://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/)
+
+  2. [How to sum two integers without using arithmetic operators in C/C++?]https://www.geeksforgeeks.org/how-to-sum-two-integers-without-using-arithmetic-operators-in-cc/(https://www.geeksforgeeks.org/how-to-sum-two-integers-without-using-arithmetic-operators-in-cc/)
+
+  3. [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 
 17.2 Shuffle: Write a method toshuffleadeckofcards.lt must be a perfect shuffle—in other words, each
 of the 521 permutations of the deck has to be equally likely. Assume that you are given a random
 number generator which is perfect.
 
+ref:
+  1. [Shuffle a deck of cards](https://www.geeksforgeeks.org/shuffle-a-deck-of-cards-3/)
+
+  2. [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/solutions/127672/official-solution/)
+
 
 17.3 Random Set: Write a method to randomly generate a set of m integers from an array of size n. Each
 element must have equal probability of being chosen.
 
+ref: 
+  1. [Generate integer from 1 to 7 with equal probability](https://www.geeksforgeeks.org/generate-integer-from-1-to-7-with-equal-probability/)
+
+  2. [Randomly generate a set of m integers from an array of size n](https://stackoverflow.com/questions/13755472/randomly-generate-a-set-of-m-integers-from-an-array-of-size-n)
+
+  3. [Random Pick Index](https://leetcode.com/problems/random-pick-index/solutions/924150/official-solution/)
 
 17.4 Missing Number: An array A contains all the integers from 0 to n, except for one number which
 is missing. In this problem, we cannot access an entire integer in A with a single operation. The
 elements of A are represented in binary, and the only operation we can use to access them is "fetch
 the j t h bit of A[ i ] , " which takes constant time. Write code to find the missing integer. Can you do
 it in 0( n) time?
-Hints: #610, #659, #683
+
+ref: 
+  1. [Find the missing element in an array of integers represented in binary format](https://www.geeksforgeeks.org/find-the-missing-element-in-an-array-of-integers-represented-in-binary-format/)
+  
+  2. [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) 
+
+  3. [question about missing element in array](https://stackoverflow.com/questions/2946056/question-about-missing-element-in-array)
 
 17.5 Letters and Numbers: Given an array filled with letters and numbers, find the longest subarray with
 an equal number of letters and numbers.
+
+ref:
+  1. [Longest sub-array with equal number of alphabets and numeric characters](https://www.geeksforgeeks.org/longest-sub-array-with-equal-number-of-alphabets-and-numeric-characters/)
+
+  2. [Largest subarray with equal number of 0s and 1s](https://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/)
+
+  3. [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 
 
 17.6 Count of 2s: Write a method to count the number of 2s that appear in all the numbers between 0
@@ -1369,6 +1519,10 @@ EXAMPLE
 Input: 25
 Output: 9 (2,12,20, 21, 22, 23, 24 and 25. Note that 22 counts for two 2s.)
 
+ref:
+  1. [Number of occurrences of 2 as a digit in numbers from 0 to n](https://www.geeksforgeeks.org/number-of-occurrences-of-2-as-a-digit-in-numbers-from-0-to-n/)
+
+  2. [Count the number of Ks between 0 and N](https://stackoverflow.com/questions/20945790/count-the-number-of-ks-between-0-and-n)
 
 17.7 Baby Names; Each year, the government releases a list of the 10000 most common baby names
 and their frequencies {the number of babies with that name). The only problem with this is that
@@ -1399,6 +1553,10 @@ Output: The longest tower is length 6 and includes from top to bottom:
 and 7. Note that 3, 5, and 7 do not have to be factors, but it should not have any other prime factors.
 For example, the first several multiples would be {in order) 1,3, 5, 7, 9,15,21.
 
+ref:
+  1. [Kth number from the set of multiples of numbers A, B and C](https://www.geeksforgeeks.org/kth-number-from-the-set-of-multiples-of-numbers-a-b-and-c/)
+
+  2. [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
 
 17.10 Majority Element: A majority element is an element that makes up more than half of the items in
 an array. Given a positive integers array, find the majority element. If there is no majority element,
@@ -1407,11 +1565,19 @@ EXAMPLE
 Input: 1 2 5 9 5 9 5 5 5
 Output: 5
 
+ref:
+  1. [Majority Element](https://www.geeksforgeeks.org/majority-element/)
+  
+  2. [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
 17.11 Word Distance: You have a large text file containing words. Given any two words, find the shortest
 distance (in terms of number of words) between them in the file. If the operation will be repeated
 many times for the same file (but different pairs of words), can you optimize your solution?
 
+ref:
+  1. [Word Wrap Problem | DP-19](https://www.geeksforgeeks.org/word-wrap-problem-dp-19/)
+
+  2. [First non repeating word in a file? File size can be 100GB](https://leetcode.com/discuss/interview-question/124858/First-non-repeating-word-in-a-file-File-size-can-be-100GB)
 
 17.12 BiNode: Consider a simple data structure called BiNode, which has pointers to two other nodes,
 public class BiNode {
@@ -1437,7 +1603,9 @@ Output: j e s s looked j u s t l i k e t u n her b r o t h e r (7 unrecognized c
 
 
 17.14 Smallest K: Design an algorithm to find the smallest K numbers in an array.
-Hints: #470, #530, #552, #593, #625, #647, #661, #678
+
+ref:
+  1. [k largest(or smallest) elements in an array](https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)
 
 17.15 Longest Word: Given a list of words, write a program to find the longest word made of other words
 in the list.
@@ -1445,6 +1613,8 @@ EXAMPLE
 Input: c a t , banana, dog, nana, walk, walker, dogwalker
 Output: dogwalker
 
+ref: 
+  1. [Program for length of the longest word in a sentence](https://www.geeksforgeeks.org/program-display-number-characters-longest-word-sentence/)
 
 17.16 The Masseuse: A popular masseuse receives a sequence of back-to-back appointment requests
 and is debating which ones to accept. She needs a 15-minute break between appointments and
@@ -1454,11 +1624,15 @@ requests (all multiples of 15 minutes, none overlap, and none can be moved), fin
 EXAMPLE
 Input; {30, 15, 60, 75, 45, 15, 15, 45}
 Output: 180 minutes ({30, 60, 45, 4 5 } ) .
-Hints: #495, #504, #516, #526, #542, #554, #562, #568, #578, #587, #607
+
 
 17.17 Multi Search: Given a string b and an array of smaller strings T, design a method to search b for
 each small string inT,
 
+ref:
+  1. [Anagram Substring Search (Or Search for all permutations)](https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/)
+  
+  2. [Given a string s and an array of smaller strings, T, how to design a method to search s for each small string in T](https://stackoverflow.com/questions/1490523/given-a-string-s-and-an-array-of-smaller-strings-t-how-to-design-a-method-to-s)
 
 17.18 Shortest Supersequence: You are given two arrays, one shorter (with all distinct elements) and one
 longer. Find the shortest subarray in the longer array that contains all the elements in the shorter
@@ -1467,12 +1641,21 @@ EXAMPLE
 Input: { 1 , 5, 9} | {7, S, 9, 0, 2, 3, 5. 7. 9. 1. 1, 5, 8, 8, 9, 7}
 Output: [ 7 , 10] (the underlined portion above)
 
+ref:
+  1. [Find smallest subarray that contains all elements in same order](https://www.geeksforgeeks.org/find-smallest-subarray-contains-elements-order/)
+
+  2. [Maximum length of subarray such that all elements are equal in the subarray](https://www.geeksforgeeks.org/maximum-length-of-subarray-such-that-all-elements-are-equal-in-the-subarray/)
 
 17.19 Missing Two: You are given an array with all the numbers from 1 to N appearing exactly once,
 except for one number that is missing. How can you find the missing number in 0(N) time and
 0 ( 1 ) space? What if there were two numbers missing?
 
+ref:
+  1. [Find the missing and repeating number](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
 
+  2. [136. Single Number](https://leetcode.com/problems/single-number/)
+
+  3. [2150. Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 
 17.20 Continuous Median: Numbers are randomly generated and passed to a method. Write a program
 to find and maintain the median value as new values are generated.

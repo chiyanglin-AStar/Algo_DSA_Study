@@ -14,33 +14,33 @@
    
 2. [Linked List](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-List)
 
-[3.Stack Queue](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Stack-Queue)
+3. [Stack Queue](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Stack-Queue)
 
-[4.Tree Graphs](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Tree-Graphs)
+4. [Tree Graphs](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Tree-Graphs)
 
-[5.Bit Manipulation](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Bit-Manipulation)
+5. [Bit Manipulation](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Bit-Manipulation)
 
-[6.Math and Logic Puzzles](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Math-and-Logic-Puzzles)
+6. [Math and Logic Puzzles](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Math-and-Logic-Puzzles)
 
-[7.Object-Oriented Design](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Object-Oriented-Design)
+7. [Object-Oriented Design](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Object-Oriented-Design)
 
-[8.Recursion and Dynamic Programming](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Recursion-and-Dynamic-Programming)
+8. [Recursion and Dynamic Programming](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Recursion-and-Dynamic-Programming)
 
-[9.System Design and Scalability](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#System-Design-and-Scalability)
+9. [System Design and Scalability](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#System-Design-and-Scalability)
 
-[10.Sorting and Searching](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Sorting-and-Searching)
+10. [Sorting and Searching](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Sorting-and-Searching)
 
-[11.Testing](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Testing)
+11. [Testing](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Testing)
 
-[12.C and C++](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#C-and-Cplusplus)
+12. [C and C++](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#C-and-Cplusplus)
 
-[13.Databases](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Databases)
+13. [Databases](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Databases)
 
-[14.Threads and Locks](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Threads-and-Locks)
+14. [Threads and Locks](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Threads-and-Locks)
 
-[15.Moderate](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Moderate)
+15. [.Moderate](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Moderate)
 
-[16.Hard](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Hard)
+16. [Hard](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Hard)
 
 # Arrays and String
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)

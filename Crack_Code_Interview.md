@@ -2,9 +2,9 @@
 
 # Table of Contents
 
-[0.General](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#General)
+0. [General](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#General)
 
-[1.Arrays and String](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Arrays-and-String)
+1. [Arrays and String](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Arrays-and-String)
 
    [MIT 2. Data Structures and Dynamic Arrays](https://www.youtube.com/watch?v=CHhwJjR0mZA&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=3&t=11s)
 
@@ -12,7 +12,7 @@
 
    [C++ program for hashing with chaining](https://www.geeksforgeeks.org/c-program-hashing-chaining/)
    
-[2.Linked List](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-List)
+2. [Linked List](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Linked-List)
 
 [3.Stack Queue](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#Stack-Queue)
 

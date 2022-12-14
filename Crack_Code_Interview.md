@@ -134,7 +134,7 @@ Additional Questions: Object-Oriented Design (#7.12), Recursion (#8.3), Sorting 
 
 
 # Linked List
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 2.1 Remove Dups: Write code to remove duplicates from an unsorted linked list.
 FOLLOW UP
@@ -229,7 +229,7 @@ ref:
   2. [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 # Stack Queue
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 
@@ -291,7 +291,7 @@ Additional Questions: Linked Lists (#2.6), Moderate Problems (#16.26), Hard Prob
 Hints start on page 653.
 
 # Tree Graphs
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 4.1 Route Between Nodes: Given a directed graph, design an algorithm to find out whether there is a
 route between two nodes.
@@ -402,7 +402,7 @@ Additional Questions: Recursion (#8.10), System Design and Scalability (#9.2, #9
 Hints start on page 653.
 
 # Bit Manipulation
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 5.1 Insertion: You are given two 32-bit numbers, N and M, and two bit positions, i and
 j. Write a method to insert M into N such that M starts at bit j and ends at bit i. You
@@ -480,7 +480,7 @@ Additional Questions: Arrays and Strings (#1.1, #1.4, #1.8), Math and Logic Puzz
 
 
 # Math and Logic Puzzles
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 6.1 The Heavy Pill: You have 20 bottles of pills. 19 bottles have 1.0 gram pills, but one has pills of weight
@@ -575,7 +575,7 @@ Additional Problems: Moderate Problems (#16.5), Hard Problems (#17.19)
 
 
 # Object-Oriented Design
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 7.1 Deck of Cards: Design the data structures for a generic deck of cards. Explain how you would
 subclass the data structures to implement blackjack.
@@ -636,7 +636,7 @@ ref:
   1. [Circular array](https://www.geeksforgeeks.org/circular-array/) 
 
 # Recursion and Dynamic Programming
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 8.1 Triple Step: A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3
@@ -762,7 +762,7 @@ Additional Questions: Linked Lists (#2.2, #2.5, #2.6), Stacks and Queues (#3.3),
 
 
 # System Design and Scalability
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 These questions are designed to mirror a real interview, so they will not always be well defined. Think about
@@ -828,7 +828,7 @@ Additional Questions: Object-Oriented Design (#7.7)
 
 
 # Sorting and Searching
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 10.1 Sorted Merge: You are given two sorted arrays, A and B, where A has a large enough buffer at the
@@ -959,7 +959,7 @@ Hints start on page 662.
 
 
 # Testing
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 11.1 Mistake: Find the mistake(s) in the following code:
@@ -996,7 +996,7 @@ ref:
 
 
 # C and Cplusplus
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 Interview Questions
 12.1 Last K Lines: Write a method to print the last K lines of an input file using C++.
@@ -1093,13 +1093,14 @@ Additional Questions: Linked Lists (#2.6), Testing (#11.1), Java (#13.4), Thread
 
 
 # Databases
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 # Threads and Locks
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
-Interview Questions
+# Interview Questions
 15.1 Thread vs. Process: What's the difference between a thread and a process?
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 ref:
   1. [Difference between Process and Thread](https://www.geeksforgeeks.org/difference-between-process-and-thread/)
@@ -1161,7 +1162,7 @@ is responsible for divisibility of 3 and 5 and prints "FizzBuzz". A fourth threa
 
 
 # Moderate
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 16.1 Number Swapper: Write a function to swap a number in place (that is, without temporary variables).
 
@@ -1456,7 +1457,7 @@ ref:
    3. [2232. Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)
 
 # Hard
-[Back to the Top](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md#table-of-contents)
+[Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
 17.1 Add Without Plus: Write a function that adds two numbers. You should not use + or any arithmetic
 operators.

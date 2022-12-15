@@ -38,7 +38,7 @@
 
 14. [Threads and Locks](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#Threads-and-Locks)
 
-15. [.Moderate](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#Moderate)
+15. [Moderate](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#Moderate)
 
 16. [Hard](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#Hard)
 

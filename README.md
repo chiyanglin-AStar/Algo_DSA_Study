@@ -16,3 +16,24 @@ Algorithm :
 ## Crack Code Interview
 
 [Crack Code Interview](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md)
+
+
+## Leetcode 
+
+[Hash Table](https://leetcode.com/tag/hash-table/)
+
+[backtracking](https://leetcode.com/tag/backtracking/)
+
+[stack](https://leetcode.com/tag/stack/)
+
+[Queue](https://leetcode.com/tag/queue/)
+
+[Graph](https://leetcode.com/tag/graph/)
+
+[Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/)
+
+[Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/)
+
+[Greedy](https://leetcode.com/tag/greedy/)
+
+[Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)

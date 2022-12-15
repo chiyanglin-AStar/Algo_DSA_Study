@@ -404,6 +404,8 @@ Hints start on page 653.
 # Bit Manipulation
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
 
+[Leetcode -- Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)
+
 5.1 Insertion: You are given two 32-bit numbers, N and M, and two bit positions, i and
 j. Write a method to insert M into N such that M starts at bit j and ends at bit i. You
 can assume that the bits j through i have enough space to fit all of M. That is, if
@@ -637,6 +639,8 @@ ref:
 
 # Recursion and Dynamic Programming
 [Back to the Top](https://github.com/chiyanglin-AStar/Algo_DSA_Study/blob/main/Crack_Code_Interview.md#table-of-contents)
+
+[Leetcode -- Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)
 
 Interview Questions
 8.1 Triple Step: A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3

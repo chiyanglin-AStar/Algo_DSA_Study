@@ -1,5 +1,36 @@
 #  freeCodeCamp.org Computer Science Concepts Algorithms Course
 
+- [Harvard CS50 – Full Computer Science University Course](https://www.youtube.com/watch?v=8mAITcNt710)
+
+  ⭐️ Course Contents ⭐️
+
+  ⌨️ (00:00:00) Lecture 0 - Scratch
+  
+  ⌨️ (01:45:08) Lecture 1 - C
+  
+  ⌨️ (04:13:23) Lecture 2 - Arrays
+  
+  ⌨️ (06:20:43) Lecture 3 - Algorithms
+  
+  ⌨️ (08:37:55) Lecture 4 - Memory
+  
+  ⌨️ (11:03:17) Lecture 5 - Data Structures
+  
+  ⌨️ (13:15:36) Lecture 6 - Python
+  
+  ⌨️ (15:39:25) Lecture 7 - SQL
+  
+  ⌨️ (18:00:55) Lecture 8 - HTML, CSS, JavaScript
+  
+  ⌨️ (20:23:38) Lecture 9 - Flask
+  
+  ⌨️ (22:39:01) Lecture 10 - Emoji
+  
+  ⌨️ (24:02:50) Cybersecurity
+
+Recorded in 2021.
+
+
 - [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLBZI3Jo1WG62y5CYTXFfcFJbMpww_Chdo&index=24)
 
   ⭐️ Course Contents ⭐️

@@ -3,6 +3,7 @@
 - [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLBZI3Jo1WG62y5CYTXFfcFJbMpww_Chdo&index=24)
 
   ⭐️ Course Contents ⭐️
+  
   ⌨️ (0:00:00) Graph Theory Introduction
   
   ⌨️ (0:13:53) Problems in Graph Theory
@@ -75,6 +76,7 @@
 
 - [Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges](https://www.youtube.com/watch?v=oBt53YbR9Kk&list=PLBZI3Jo1WG62y5CYTXFfcFJbMpww_Chdo&index=16&t=16s)
   ⭐️ Course Contents ⭐️
+  
   ⌨️ (00:00:00) course introduction
   
   ⌨️ (00:03:30) fib memoization

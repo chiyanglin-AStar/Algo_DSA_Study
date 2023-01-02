@@ -13,6 +13,10 @@ Algorithm :
 
 - [Recursive - Dynamics](https://github.com/chiyanglin-AStar/Algo_study/blob/main/tree_algo.md)
 
+## HackRank Video 
+
+- [Algorithms: Memoization and Dynamic Programming](https://www.youtube.com/watch?v=P8Xa2BitN3I&list=PLBZI3Jo1WG62y5CYTXFfcFJbMpww_Chdo&index=8&t=12s)
+
 ## Crack Code Interview
 
 [Crack Code Interview](https://github.com/chiyanglin-AStar/Algo_study/blob/main/Crack_Code_Interview.md)
